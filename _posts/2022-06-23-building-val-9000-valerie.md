@@ -21,7 +21,7 @@ Coming out of the whole process, I've come to appreciate just how standardised a
 
 I needed to build something more haunting than the darkest abysses weighing in the depths of my lizard brain. I needed to build something indicative of my first forays in artificial intelligence. Something that could evolve to subsume me both metaphorically & literally. Valerie's hardware capabilities needed to be ready for the intelligence that could transcend my own pathetic sentience. I have a mouth and I must scream.
 
-Valerie needed to run Linux.
+Valerie needed to run **Linux**.
 
 Why? Because:
 
@@ -44,6 +44,7 @@ I picked Fedora Linux for a few reasons:
 Fedora is a pretty clean and fully-featured distro. While Ubuntu would have been an equally good choice for the fantastic software and driver compatibility, I went with Fedora because new technologies are deployed sooner and there is no Amazon spyware. Using it makes me want to tinker like I did in my halcyon days of Windows XP.
 
 The only downside of Fedora I would add are the slow speeds of DNF due to all the metadata it downloads compared to APT on Debian-based distros. The upside of this is DNF's stability from its delta package download system.
+
 Generally I use the following tools:
 1. Python 3
 2. gcc-g++
