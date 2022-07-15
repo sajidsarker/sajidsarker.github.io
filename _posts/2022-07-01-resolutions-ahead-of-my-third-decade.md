@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Musings Ahead of my Third Decade
+title: Resolutions Ahead of my Third Decade
 date: 2022-07-01 04:22:00
 tags: Linux
 ---
-## Musings Ahead of my Third Decade
+## Resolutions Ahead of my Third Decade
 
 Complacency is the foremost malaise of age. I’ve turned 29 this year and learned a few lessons about myself. It isn’t a lesson that is new, but the sort of experiential learning that cements received knowledge to create wisdom. Complacency. The lack of motivation to rock the boat, to strive, to desire, to want. It’s akin to making one mortal effort and forgetting that even Ozymandias lies forgotten in desert wastes.
 
