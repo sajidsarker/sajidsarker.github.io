@@ -14,7 +14,7 @@ This blog contains musings on my misadventures in programming and artificial int
 
 Sometimes, I will be writing about writing as well, and share my thoughts and essays on eclectic interests which happen to catch my fancy in the moment.
 
-I think expression is important and it adds to the heterogeneity of information on the internet. That is as long as how I think and feel is not too banal. To that end I'll strive to be as original as possible with the utmost lack of effort as is marginally possible.
+I think expression is important and it adds to the heterogeneity of information on the internet. That is as long as how I think and feel is not too banal. To that end I'll strive to be as original as I can be with the utmost lack of effort as is marginally possible on my part.
 
 ## How can I contact you?
 
