@@ -2,7 +2,7 @@
 layout: post
 title: Resolutions Ahead of my Third Decade
 date: 2022-07-01 04:22:00
-tags: Linux
+tags: Writing
 ---
 ## Resolutions Ahead of my Third Decade
 
