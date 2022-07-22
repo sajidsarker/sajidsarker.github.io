@@ -3,11 +3,6 @@ hr {
   margin-bottom: 20px;
 }
 
-body {
-    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-}
-
 /* Post navigation links */
 .post_navi {
   display: flex;
