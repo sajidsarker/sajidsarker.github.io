@@ -121,16 +121,14 @@ Competitive Game of Life (two or more players).
 Ported by Sajid Sarker (2022).
 '''
 
-from typing import List
-
 # Global Variable Initialisation
-gn: List[int] = []
-gx: List[int] = []
-gy: List[int] = []
-gk: List[int] = [0, 3, 102, 103, 120, 130, 121, 112, 111, 12, 21, 30, 1020, 1030, 1011, 1021, 1003, 1002, 1012]
-ga: List[int] = [0, -1, 0, 1, 0, 0, -1, 0, 1, -1, -1, 1, -1, -1, 1, 1, 1]
-m2: int = 0
-m3: int = 0
+gn = []
+gx = []
+gy = []
+gk = [0, 3, 102, 103, 120, 130, 121, 112, 111, 12, 21, 30, 1020, 1030, 1011, 1021, 1003, 1002, 1012]
+ga = [0, -1, 0, 1, 0, 0, -1, 0, 1, -1, -1, 1, -1, -1, 1, 1, 1]
+m2 = 0
+m3 = 0
 
 # Initialise the board
 for j in range(6):
@@ -227,10 +225,10 @@ def query_player(b) -> None:
     # Query player for symbol placement coordinates
     while True:
         print("X,Y\nXXXXXX\n$$$$$$\n&&&&&&")
-        a_: List[str] = input("??")
-        b_: List[str] = input("???")
-        x_: List[int] = [int(num) for num in a_.split() if num.isdigit()]
-        y_: List[int] = [int(num) for num in b_.split() if num.isdigit()]
+        a_ = input("??")
+        b_ = input("???")
+        x_ = [int(num) for num in a_.split() if num.isdigit()]
+        y_ = [int(num) for num in b_.split() if num.isdigit()]
         x_ = [0] if len(x_) == 0 else x_
         y_ = [0] if len(y_) == 0 else y_
         gx[b] = y_[0]
@@ -245,7 +243,7 @@ def query_player(b) -> None:
             b = 99
 
 # Game Functions
-def check_winner(m2 : int, m3 : int) -> None:
+def check_winner(m2, m3) -> None:
     # Check if the game has been won
     if m2 == 0 and m3 == 0:
         print("\nA DRAW\n")
