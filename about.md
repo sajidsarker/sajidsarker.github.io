@@ -8,9 +8,13 @@ Hi, I'm **Sajid Sarker**.
 
 I'm a Data Scientist, Game Developer, and Writer.
 
+I received my **M.A., Economics** from the *Department of Economics* at *The University of Washington* in Seattle, WA. I received my **B.B.A., Economics** from the *Tippie College of Business* at the *University of Iowa* in Iowa City, IA.
+
+From the age of 11, I've been a self-taught programmer. From the age of 15, I've been studying economics. From the age of 21, I've been learning econometrics, machine learning, and artificial intelligence.
+
 ## Why do you blog?
 
-This blog contains musings on my misadventures in programming and artificial intelligence. From time to time, I'll be writing about things that interest me in the world of technology, programming, artificial intelligence, and open source.
+This blog contains my musings and misadventures on programming and artificial intelligence. From time to time, I'll be writing about things which interest me in the world of technology, programming, artificial intelligence, and open source.
 
 Sometimes, I will be writing about writing as well, and share my thoughts and essays on eclectic interests which happen to catch my fancy in the moment.
 
