@@ -8,7 +8,9 @@ Hi, I'm **Sajid Sarker**.
 
 I'm a Data Scientist, Game Developer, and Writer.
 
-I received my **M.A., Economics** from the *Department of Economics* at *The University of Washington* in Seattle, WA. I received my **B.B.A., Economics** from the *Tippie College of Business* at the *University of Iowa* in Iowa City, IA.
+I received my **M.A., Economics** from the *Department of Economics* at *The University of Washington* in Seattle, WA.
+
+I received my **B.B.A., Economics** from the *Tippie College of Business* at the *University of Iowa* in Iowa City, IA.
 
 From the age of 11, I've been a self-taught programmer. From the age of 15, I've been studying economics. From the age of 21, I've been learning econometrics, machine learning, and artificial intelligence.
 
