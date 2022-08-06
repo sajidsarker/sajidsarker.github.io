@@ -25,9 +25,9 @@ Figure 2. Neural Network
 
 Through feed forward propagation, values of features are assigned to each input neuron and fed through the network with randomly initialized weights. The difference between the values of outputs of neurons in the output layer and the true and empirical values are then calculated, yielding us our errors.
 
-The errors are then propagated backwards through the network to update our weights. Once this cycle is repeated on all the data the network is being trained on over multiple epochs, we arrive at a set of weights which can then be used on new out-of-sample data for prediction.
+Errors can be calculated through a standard Mean Squared Error formula of *$MSE=1/n \sigma ($Y_i - $Y^_i)^2*.
 
-Errors can be calculated through the Mean Squared Error formula of $MSE=1/n \sigma ($Y_i - $Y^_i)^2.
+The errors are then propagated backwards through the network and stochastic gradient descent is used to update our weights. Once this cycle is repeated on all the data the network is being trained on over multiple epochs, we arrive at a set of weights which can then be used on new out-of-sample data for prediction.
 
 Neural networks are highly inscrutable models with poor interpretability compared to, for example, linear regression where coefficients of features are directly interpretable. However, the beauty of neural networks lies in the robustness of their feature extraction capabilities which can elicit nuances and subtle patterns from data without direction.
 
