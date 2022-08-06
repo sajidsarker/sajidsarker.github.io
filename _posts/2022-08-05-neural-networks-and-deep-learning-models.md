@@ -37,4 +37,4 @@ Ordinarily, a neural network without significant loss in generality or accuracy 
 
 Deep-learning architectures such as deep neural networks, deep belief networks, deep reinforcement learning, recurrent neural networks, and convolutional neural networks have been successfully applied in fields such as computer vision, image generation, automatic speech recognition, natural language processing, computer translation, and many other sophisticated applications. Results produced surpass the performance of human-designed expert systems.
 
-[[1] Hastie, Trevor, Robert, Tibshirani and J. H. Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction. New York: Springer, 2009.](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
+[[1] Hastie, Trevor, Robert, Tibshirani and J. H. Friedman, *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. New York: Springer, 2009.](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
