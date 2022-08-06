@@ -11,7 +11,7 @@ Neural networks are inspired by and modelled after biological systems of informa
 
 Neural networks however have various differences from biological brains. Specifically, they tend to be symbolic and static, relying more on information processing in a representational manner, whereas the biological brains of living organisms are malleable and analogue.
 
-![Perceptron](/docs/assets/images/perceptron.PNG)
+![Perceptron](/docs/assets/images/perceptron.png)
 
 Figure 1. Perceptron
 
@@ -19,7 +19,7 @@ Perceptrons are structural units which compose a neural network. They take an in
 
 Neurons are arranged into layers, where the outputs of neurons in one layer form the inputs of neurons in the next layer. A network is therefore composed of multiple such layers of neurons. The number of neurons in each layer can be heterogeneous. These minimally include one input layer, one output layer, and at least one hidden layer (bridging the input and output layers).
 
-![Neural Network](/docs/assets/images/nn.PNG)
+![Neural Network](/docs/assets/images/nn.png)
 
 Figure 2. Neural Network
 
