@@ -13,7 +13,7 @@ Neural networks however have various differences from biological brains. Specifi
 
 ![Perceptron](/docs/assets/images/perceptron.png)
 
-Figure 1. Perceptron
+**Figure 1.** *Perceptron*
 
 Perceptrons are structural units which compose a neural network. They take an input, have an assigned weight, receive a bias, and are designated an activation function. Learning is performed through mapping the input using weights and bias onto the output domain via the activation function.
 
@@ -21,7 +21,7 @@ Neurons are arranged into layers, where the outputs of neurons in one layer form
 
 ![Neural Network](/docs/assets/images/nn.png)
 
-Figure 2. Neural Network
+**Figure 2.** *Neural Network*
 
 Through feed forward propagation, values of features are assigned to each input neuron and fed through the network with randomly initialized weights. The difference between the values of outputs of neurons in the output layer and the true and empirical values are then calculated, yielding us our errors.
 
