@@ -2,7 +2,7 @@
 layout: post
 title: BASIC Computer Games (1973) Porting from BASIC to Python in 2022
 date: 2022-07-07 18:19:00
-tags: OpenSource
+tags: [Open Source]
 ---
 ## BASIC Computer Games (1973): Porting from BASIC to Python in 2022
 
