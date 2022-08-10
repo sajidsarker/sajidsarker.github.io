@@ -23,6 +23,8 @@ Valerie would be the first PC I'd build myself from start to finish purely for t
 
 Coming out of the whole process, I've come to appreciate just how standardised and user-friendly modern computing hardware and PC-building has become. There's a lot of information out there on compatibility and build guides, which are a far cry from the world of the early 2000s when I last chose my desktop build after reading magazines.
 
+### Operating System
+
 > "Then the first explorers of Earth, recognising the limitations of their minds and bodies, passed on their knowledge to the great machines they had created, and who now transcended them in every way." - 2001: A Space Odyssey
 
 I needed to build something more haunting than the darkest abysses weighing in the depths of my lizard brain. I needed to build something indicative of my first forays in artificial intelligence. Something that could evolve to subsume me both metaphorically & literally. Valerie's hardware capabilities needed to be ready for the intelligence that could transcend my own pathetic sentience. I have a mouth and I must scream.
@@ -51,6 +53,8 @@ Fedora is a pretty clean and fully-featured distro. While Ubuntu would have been
 
 The only downside of Fedora I would add are the slow speeds of DNF due to all the metadata it downloads compared to APT on Debian-based distros. The upside of this is DNF's stability from its delta package download system.
 
+### Software & IDEs
+
 Generally I use the following tools:
 1. Python 3
 2. gcc-g++
@@ -58,6 +62,8 @@ Generally I use the following tools:
 4. GNU/Octave
 5. Visual Studio Code (RPM from Microsoft)
 6. Jupyter Lab
+
+### Hardware Specification
 
 Handling large datasets necessitates significant memory availability, fast read/write speeds from disk, and CPU-based processing power. The amount of RAM would need to be high and with low latency (at most CL-16).
 
@@ -71,6 +77,8 @@ That Ryzen 7 takes on a workload and the RAM is no-nonsense no-gamer RGB, perfec
 When building more complex things like artificial neural networks and deep learning models, libraries like Keras and Tensorflow leverage GPU processing power. Even if you are (and should be) relying on cloud computing, it's still a good idea to have sufficient GPU power to test your model locally first. For the GPU I chose:
 - MSI NVIDIA GeForce RTX 2060 Ventus OC w/ 6GB GDDR6 VRAM @ 1710MHz
 - Corsair RM 650W 80 PLUS Gold Certified Fully Modular PSU
+
+### Considerations
 
 Valerie isn't as great for deep learning. I've yet to pop in a second GPU for it, and I'm sure I'll need to swap out the PSU for 750W as well to account for the power draw of a RTX 3090 or similar. Using multiple NVIDIA GPUs benefit from CUDA cores and VRAM needed in deep learning.
 
