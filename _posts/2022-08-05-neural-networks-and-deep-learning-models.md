@@ -25,7 +25,7 @@ Neurons are arranged into layers, where the outputs of neurons in one layer form
 
 Through feed forward propagation, values of features are assigned to each input neuron and fed through the network with randomly initialized weights. The difference between the values of outputs of neurons in the output layer and the true and empirical values are then calculated, yielding us our errors.
 
-Errors can be calculated through a standard Mean Squared Error formula of *$MSE=1/n \sigma ($Y_i - $Y^_i)^2*.
+Errors can be calculated through a standard Mean Squared Error formula of *$MSE=1/n \sigma (Y_i - Y^_i)^2$*.
 
 The errors are then propagated backwards through the network and stochastic gradient descent is used to update our weights. Once this cycle is repeated on all the data the network is being trained on over multiple epochs, we arrive at a set of weights which can then be used on new out-of-sample data for prediction.
 
