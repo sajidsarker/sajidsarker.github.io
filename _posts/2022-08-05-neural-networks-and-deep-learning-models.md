@@ -2,7 +2,7 @@
 layout: post
 title: Neural Networks and Deep Learning Models
 date: 2022-08-05 23:59:59
-tags: MachineLearning NeuralNetworks DeepLearning
+tags: [Machine Learning, Neural Networks, Deep Learning]
 ---
 ## Neural Networks and Deep Learning Models
 **Deep learning (DL)** is one aspect of the broader family of  **machine learning (ML)** algorithms based on **artificial neural networks (ANN)**[[1]](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576). Deep learning and neural networks are unique in that they can be applied as supervised, semi-supervised or unsupervised ML methods.
