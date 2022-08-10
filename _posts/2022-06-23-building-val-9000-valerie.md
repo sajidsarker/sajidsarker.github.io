@@ -2,7 +2,7 @@
 layout: post
 title: Building VAL 9000 (Valerie)
 date: 2022-06-23 21:22:00
-tags: Linux
+tags: [Linux, Fedora, Hardware, PC]
 ---
 ## Building VAL 9000 (Valerie)
 The 90s definitely had a more analogue feel for computing. 56K modems were dreams of jacking into the Matrix. Floppy disk drives etched precious data onto the magnetised discs like a mason committing hieroglyphs to stone, and with just as much noise. When the decibels humming from the beige PC towers would grow louder, you knew the monolithic machine was thinking.
