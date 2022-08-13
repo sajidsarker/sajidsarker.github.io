@@ -49,6 +49,10 @@ Neural networks are highly inscrutable models with poor interpretability compare
 
 Deep learning is a special case of artificial neural networks, where the adjective ‘deep’ refers to the use of multiple hidden layers bridging the input and output layers of the network.
 
+![Deep Learning Neural Network](/docs/assets/images/dl.png)
+
+**Figure 1.** *Deep Learning Neural Network*
+
 Ordinarily, a neural network without significant loss in generality or accuracy benefits by trading-off between complexity and time with just 2 hidden layers. Deep learning neural networks therefore trade-off the significant time it takes to train for the additional accuracy, nuance, and explanatory power the network gains in learning from the provided dataset.
 
 Deep-learning architectures such as deep neural networks, deep belief networks, deep reinforcement learning, recurrent neural networks, and convolutional neural networks have been successfully applied in fields such as computer vision, image generation, automatic speech recognition, natural language processing, computer translation, and many other sophisticated applications. Results produced surpass the performance of human-designed expert systems.
