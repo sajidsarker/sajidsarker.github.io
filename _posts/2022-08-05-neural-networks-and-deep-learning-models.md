@@ -51,7 +51,7 @@ Deep learning is a special case of artificial neural networks, where the adjecti
 
 ![Deep Learning Neural Network](/docs/assets/images/dl.png)
 
-**Figure 1.** *Deep Learning Neural Network*
+**Figure 3.** *Deep Learning Neural Network*
 
 Ordinarily, a neural network without significant loss in generality or accuracy benefits by trading-off between complexity and time with just 2 hidden layers. Deep learning neural networks therefore trade-off the significant time it takes to train for the additional accuracy, nuance, and explanatory power the network gains in learning from the provided dataset.
 
