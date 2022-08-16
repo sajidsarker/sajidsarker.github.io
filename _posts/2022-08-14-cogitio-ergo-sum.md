@@ -29,3 +29,5 @@ A machine, though it can learn, cannot truly think. The extraction of patterns f
 At best, artificial intelligence takes input and generates output to imitate the symptoms of thought - a shadow of human capacity.
 
 *Cogit-I/O, ergo sum. I think with I/O, therefore I am.*
+
+It is also the state of affairs. We will soon all be augmenting our thinking, decisions, and productivity with artificial intelligence that has been trained on the inputs of past human endeavours.
