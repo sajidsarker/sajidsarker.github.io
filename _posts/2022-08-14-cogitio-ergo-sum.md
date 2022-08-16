@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CogitIO, Ergo Sum?
-date: 2022-08-15 17:48:09
+date: 2022-08-14 17:48:09
 tags: [Writing, Machine Learning, Artificial Intelligence]
 ---
 ## CogitIO, Ergo Sum?
@@ -12,7 +12,7 @@ So why did I choose "CogitIO Ergo Sum"?
 
 Firstly, my wordplay is a bastardisation of Latin - albeit not nearly as visceral, intelligent, or relatable as AAVE.
 
-Second, French Mathematician René Descartes's first principle was to recognise "Je pense, donc je suis." *I think, so I am*.
+Second, French Mathematician RenÃ© Descartes's first principle was to recognise "Je pense, donc je suis." *I think, so I am*.
 
 It is an interesting notion to unpack within the context of human intelligence and consciousness.
 
