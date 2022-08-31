@@ -1,0 +1,9 @@
+---
+layout: post
+title: Seattle Airbnb CRISP-DM Project
+date: 2022-08-31 02:23:41
+tags: [Machine Learning, Data Science, Analysis]
+---
+## Seattle Airbnb CRISP-DM Project
+
+[Github Repository: Seattle Airbnb CRISP-DM](https://github.com/sajidsarker/seattle-airbnb-crispdm/)
