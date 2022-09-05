@@ -20,6 +20,8 @@ After what is probably 18 years since I last touched BASIC, I recently stumbled 
 
 I resolved to port game #56 which was a modification of Conway's *"Game of Life"* to support 2 players. *"Life for Two"* is a refreshing simulation of competition, growth, death, and survival based on a simple ruleset with emergent outcomes.
 
+My contribution to the open source project [can be accessed here.](https://github.com/coding-horror/basic-computer-games/blob/main/56_Life_for_Two/python/life_for_two.py)
+
 The original BASIC code is reproduced as follows:
 
 ```basic
@@ -275,4 +277,4 @@ I anticipate there are certain bugs but for the life of me, I could not tell you
 
 It's just fascinating to watch an old program come alive in the **Terminal**, with noticeably different code, [the same way it had done back in the day](https://coding-horror.github.io/basic-computer-games/).
 
-Here's to hoping my pull request is approved, and others with a similar interest and curiosity (and far far more patience than I presently have) can contribute to patching it!
+Here's to hoping others with a similar interest and curiosity (and far far more patience than I presently have) can contribute to patching it!
