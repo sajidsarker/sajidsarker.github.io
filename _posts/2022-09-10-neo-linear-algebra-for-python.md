@@ -6,17 +6,23 @@ tags: [Python, Mathematics]
 ---
 ## NEO Linear Algebra for Python
 
-**NEO Linear Algebra** is a lightweight Python 
+**NEO Linear Algebra**<sup>[[1] NEO Linear 
 
-package designed for matrix operations in 
+Algebra Open Source on Github]
 
-Linear Algebra programmed from scratch with 
+(https://github.com/sajidsarker/neolinearalgebr
 
-Python. It does not employ any other package 
+a)</sup> is a lightweight Python package 
 
-libraries to ammeliorate classes and methods 
+designed for matrix operations in Linear 
 
-with advanced functionality.
+Algebra programmed from scratch with Python. It 
+
+does not employ any other package libraries to 
+
+ammeliorate classes and methods with advanced 
+
+functionality.
 
 I built **NEO Linear Algebra** using *Object 
 
@@ -117,7 +123,17 @@ minimum viable product, host a development
 
 repository on *Github* for public forking, and 
 
-focus on quality of syntax and documentation.
+focus on simplicity, quality of syntax, and 
+
+comprehensive documentation<sup>[[2] NEO Linear 
+
+Algebra Documentation]
+
+(https://github.com/sajidsarker/neolinearalgebr
+
+a/blob/main/Documentation/Documentation.html)
+
+</sup>.
 
 With my choice of Linear Algebra and love for 
 
