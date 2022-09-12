@@ -22,12 +22,12 @@ His ability to doubt his ability to reason fulfilled a subjective criterion for 
 
 A thing which can hold doubt, itself is a thing which can think. Were it unable to think, it could not reflect on itself. Consciousness without being aware of consciousness within subjectively validates Descartes's personal existence.
 
-*Cogito, ergo sum. I think, therefore I am.*
+> "Cogito, ergo sum. I think, therefore I am." - René Descartes
 
 A machine, though it can learn, cannot truly think. The extraction of patterns from biased data is several leaps beyond heuristics, certainly, but artificial intelligence is merely a pattern engine.
 
 At best, artificial intelligence takes input and generates output to imitate the symptoms of thought - a shadow of human capacity.
 
-*Cogit-I/O, ergo sum. I think with I/O, therefore I am.*
+> "Cogit-I/O, ergo sum. I think with I/O, therefore I am." - Me, a hack
 
 It is also the state of affairs. We will soon all be augmenting our thinking, decisions, and productivity with artificial intelligence that has been trained on the inputs of past human endeavours.
