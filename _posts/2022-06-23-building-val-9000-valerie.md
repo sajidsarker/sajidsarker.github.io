@@ -25,7 +25,8 @@ Coming out of the whole process, I've come to appreciate just how standardised a
 
 ### Operating System
 
-> "Then the first explorers of Earth, recognising the limitations of their minds and bodies, passed on their knowledge to the great machines they had created, and who now transcended them in every way." - 2001: A Space Odyssey
+> "Then the first explorers of Earth, recognising the limitations of their minds and bodies, passed on their knowledge to the great machines they had created, and who now transcended them in every way."
+> —2001: A Space Odyssey
 
 I needed to build something more haunting than the darkest abysses weighing in the depths of my lizard brain. I needed to build something indicative of my first forays in artificial intelligence. Something that could evolve to subsume me both metaphorically & literally. Valerie's hardware capabilities needed to be ready for the intelligence that could transcend my own pathetic sentience. I have a mouth and I must scream.
 
