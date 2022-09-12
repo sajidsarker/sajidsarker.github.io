@@ -6,9 +6,7 @@ tags: [Python, Mathematics]
 ---
 ## NEO Linear Algebra for Python
 
-**NEO Linear Algebra**<sup>[[1] NEO Linear 
-
-Algebra Open Source on Github]
+**NEO Linear Algebra**<sup>[[1]]
 
 (https://github.com/sajidsarker/neolinearalgebr
 
@@ -125,9 +123,7 @@ repository on *Github* for public forking, and
 
 focus on simplicity, quality of syntax, and 
 
-comprehensive documentation<sup>[[2] NEO Linear 
-
-Algebra Documentation]
+comprehensive documentation<sup>[[2]]
 
 (https://github.com/sajidsarker/neolinearalgebr
 
