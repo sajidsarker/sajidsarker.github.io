@@ -10,7 +10,7 @@ I'm a proponent of butchering words at the altar of wordplay. It's probably why 
 
 So why did I choose "CogitIO Ergo Sum"?
 
-Firstly, my wordplay is a bastardisation of Latin - albeit not nearly as visceral, intelligent, or relatable as AAVE.
+Firstly, my wordplay is a bastardisation of Latin - albeit not nearly as visceral, intelligent, or relatable as AAVE or the music I like listening to.
 
 Second, French Mathematician René Descartes's first principle was to recognise "Je pense, donc je suis." *I think, so I am*.
 
