@@ -51,7 +51,7 @@ With my choice of Linear Algebra and love for *The Matrix*, I decided to write a
 What I ended up with is something very clean and intuitive!
 
 ```python
-A = Matrix([[1, 0], [0, 1])
+A = Matrix([[1, 0], [0, 1]])
 B = Matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
 C = Matrix([[10, 9, 7], [6, 5, 4], [3, 2, 1]])
 
