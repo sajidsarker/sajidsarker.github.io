@@ -55,14 +55,14 @@ A = Matrix([[1, 0], [0, 1]])
 B = Matrix([[1, 0, 0], [0, 1, 0], [0, 0, 1]])
 C = Matrix([[10, 9, 7], [6, 5, 4], [3, 2, 1]])
 
-# A + A
+A + A
 <class: 'Matrix'>
 Dimensions: 2 row(s) x 2 column(s)
  [[2, 0],
   [0, 2]]
 Size: 4 element(s), 136 byte(s)
 
-# B * C   # Pointwise Multiplication
+B * C   # Pointwise Multiplication
 <class: 'Matrix'>
 Dimensions: 3 row(s) x 3 column(s)
  [[10, 0, 0],
@@ -70,7 +70,7 @@ Dimensions: 3 row(s) x 3 column(s)
   [0, 0, 1]]
 Size: 9 element(s), 136 byte(s)
 
-# B @ C   # Matrix Multiplication
+B @ C   # Matrix Multiplication
 <class: 'Matrix'>
 Dimensions: 3 row(s) x 3 column(s)
  [[10, 9, 7],
@@ -78,7 +78,7 @@ Dimensions: 3 row(s) x 3 column(s)
   [3, 2, 1]]
 Size: 9 element(s), 136 byte(s)
 
-# B.inverse().transpose()
+B.inverse().transpose()
 <class: 'Matrix'>
 Dimensions: 3 row(s) x 3 column(s)
  [[1.0, 0.0, 0.0],
