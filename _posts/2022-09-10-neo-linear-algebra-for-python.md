@@ -10,6 +10,13 @@ tags: [Python, Mathematics]
 
 I built **NEO Linear Algebra** using *Object Oriented Programming* (OOP) architecture when designing the primary class for matrices.
 
+The latest build (at time of writing) is **neolinearalgebra 0.1.6**<sup>[[3]](https://pypi.org/project/neolinearalgebra/0.1.6/)</sup> and can be installed using Python's *pip* package manager easily.
+
+```bash
+python3 -m pip install neolinearalgebra
+pip install neolinearalgebra
+```
+
 ### Motivation and *The Matrix*
 
 I was inspired to program this package as part of a light review of the absolute fundamentals of Linear Algebra. Though I use this branch of mathematics heavily in my line of work with the popular *NumPy* and *Pandas*, I thought it would be a valuable exercise to implement skills I had already acquired in the development of a Python package for open source.
@@ -126,3 +133,5 @@ After deployment, I hope to update functionality of my package by extending the 
 [[1] NEO Linear Algebra Open Source on Github](https://github.com/sajidsarker/neolinearalgebra)
 
 [[2] NEO Linear Algebra Documentation](https://github.com/sajidsarker/neolinearalgebra/blob/main/Documentation/Documentation.html)
+
+[[3] neolinearalgebra 0.1.6 - PyPi.org](https://pypi.org/project/neolinearalgebra/0.1.6/)
