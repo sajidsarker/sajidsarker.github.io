@@ -2,7 +2,7 @@
 layout: post
 title: NEO Linear Algebra for Python
 date: 2022-09-10 16:22:28
-tags: [Python, Mathematics]
+tags: [Mathematics, Open Source, Python]
 ---
 ## NEO Linear Algebra for Python
 
