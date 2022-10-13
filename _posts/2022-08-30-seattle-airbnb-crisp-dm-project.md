@@ -43,9 +43,9 @@ On a preliminary review of the data schema, I am interested in finding some answ
 
 Data is provided courtesy of Airbnb for the city of Seattle, WA during the period of 2016-2017:
 
-- Listings.csv contains details of properties and pricing
-- Reviews.csv contains reviews after home-stays
-- Calendar.csv contains pricing for listings on specific days
+- **Listings.csv** contains details of properties and pricing
+- **Reviews.csv** contains reviews after home-stays
+- **Calendar.csv** contains pricing for listings on specific days
 
 ### Data Preparation & Modelling
 
