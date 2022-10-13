@@ -20,12 +20,12 @@ I utilise data regarding listings of properties by Airbnb hosts in the city of S
 
 The CRISP-DM Process involves the following steps:
 
-    Business Understanding
-    Data Understanding
-    Data Preparation
-    Modelling
-    Evaluation
-    Deployment
+1. Business Understanding
+2. Data Understanding
+3. Data Preparation
+4. Modelling
+5. Evaluation
+6. Deployment
 
 ### Business Understanding
 
@@ -40,6 +40,12 @@ On a preliminary review of the data schema, I am interested in finding some answ
 7. Which amenities, housing characteristics, and factors contribute positively to ratings? (Linear Regression)
 
 ### Data Understanding
+
+Data is provided courtesy of Airbnb for the city of Seattle, WA during the period of 2016-2017:
+
+- Listings.csv contains details of properties and pricing
+- Reviews.csv contains reviews after home-stays
+- Calendar.csv contains pricing for listings on specific days
 
 ### Data Preparation
 
