@@ -12,9 +12,9 @@ tags: [Machine Learning, Data Science]
 
 **Airbnb, Inc.**<sup>[[1]](https://en.wikipedia.org/wiki/Airbnb)</sup> is an online marketplace where hosts and guests can organise bookings of temporary lodgings for home-stays. The company itself does not own real estate or hotel properties, but acts as brokers receiving commissions on bookings for maintaining the platform for hosts and guests.
 
-For my project, I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle (WA) between 2016-2017 for exploratory data analysis and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
+Having called Seattle (WA) a home for several years now, I was quite excited to be able to sink my teeth into this project. For my project, I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle between 2016-2017 for exploratory data analysis and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
 
-The Github repository I have created entitled *"Seattle Airbnb CRISP-DM Project"*<sup>[[2]](https://github.com/sajidsarker/seattle-airbnb-crispdm)</sup> contains an HTML knit of the Python Notebook with which I conducted all modelling & analysis.
+The Github repository I have created entitled *"Seattle Airbnb CRISP-DM Project"*<sup>[[2]](https://github.com/sajidsarker/seattle-airbnb-crispdm)</sup> contains an HTML knit of the Python Notebook in which I conducted all modelling & analysis.
 
 ### CRISP-DM
 
@@ -49,25 +49,49 @@ Data is provided courtesy of Airbnb for the city of Seattle, WA during the perio
 - **Reviews.csv** contains reviews after home-stays
 - **Calendar.csv** contains pricing for listings on specific days
 
-I end up only using the datasets titled **Listings.csv*** and **Reviews.csv**, as **Calendar.csv*** does not contain data pertinent to the context of my questions.
+I end up only using the datasets titled **Listings.csv** and **Reviews.csv**, as **Calendar.csv** does not contain data pertinent to the context of my questions.
 
 ### Data Preparation & Modelling
 
-Given the abundance of quantitative data and the added context of my business questions, much of the modelling I conducted ahead of analysis of my involves **Linear Regression** which is a form of **Generalised Linear Modelling (GLM)**. Aside from this, I use simple descriptive statistical analysis
+Given the abundance of quantitative data and the added context of my business questions, much of the modelling I conducted ahead of analysis of my involves **Linear Regression** which is a form of **Generalised Linear Modelling (GLM)**. Aside from this, I use simple descriptive statistics to support my preliminary analysis.
 
 ### Analysis
 
 **1. What are the highest rated areas to to reserve accommodations in Seattle?**
 
+![...](/docs/assets/images/nn.png)
+
+**Figure 1.** *[...]*
+
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
+
+![...](/docs/assets/images/nn.png)
+
+**Figure 1.** *[...]*
 
 **3. Which scores are most important to overall ratings? (Linear Regression)**
 
+![...](/docs/assets/images/nn.png)
+
+**Figure 1.** *[...]*
+
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
+
+![...](/docs/assets/images/nn.png)
+
+**Figure 1.** *[...]*
 
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
+![...](/docs/assets/images/nn.png)
+
+**Figure 1.** *[...]*
+
 **6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)**
+
+![...](/docs/assets/images/nn.png)
+
+**Figure 1.** *[...]*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart and list.
 
@@ -103,6 +127,10 @@ Amenities which are valuable in order of descending value in positive associatio
 
 **7. Which amenities, housing characteristics, and factors contribute positively to ratings? (Linear Regression)**
 
+![...](/docs/assets/images/nn.png)
+
+**Figure 1.** *[...]*
+
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart and list.
 
 Ratings are generally positively associated with Airbnb listings where hosts hold Super Host status and are verified. This would imply that positive recommendation and verification of hosts in this manner attracts and reassures guests that their host can be trusted, is seasoned, and has a reputation for offering a stellar experience. It also appears that prior investigated ratings of value, cleanliness, listing accuracy, host communication, check-in experience, and location all factor positively and significantly as composite measures explaining overall ratings.
@@ -126,6 +154,6 @@ Neighbourhoods with positive ratings include Rainier Valley, Central Area, Beaco
 
 ### Reference
 
-[[1] Airbnb, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Airbnb)
+[[1] Wikipedia: Airbnb, Inc.](https://en.wikipedia.org/wiki/Airbnb)
 
-[[2] Github Repo: Seattle Airbnb CRISP-DM](https://github.com/sajidsarker/seattle-airbnb-crispdm)
+[[2] Github Repository: Seattle Airbnb CRISP-DM](https://github.com/sajidsarker/seattle-airbnb-crispdm)
