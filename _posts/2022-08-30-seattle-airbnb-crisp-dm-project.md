@@ -10,7 +10,7 @@ tags: [Machine Learning, Data Science]
 
 ### Motivation
 
-**Airbnb, Inc.**<super>[[1]](https://en.wikipedia.org/wiki/Airbnb)</super> is an online marketplace where hosts and guests can organise bookings of temporary lodgings for home-stays. The company itself does not own real estate or hotel properties, but acts as brokers receiving commissions on bookings for maintaining the platform for hosts and guests.
+**Airbnb, Inc.**<sup>[[1]](https://en.wikipedia.org/wiki/Airbnb)</sup> is an online marketplace where hosts and guests can organise bookings of temporary lodgings for home-stays. The company itself does not own real estate or hotel properties, but acts as brokers receiving commissions on bookings for maintaining the platform for hosts and guests.
 
 I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle (WA) between 2016-2017 for data and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
 
