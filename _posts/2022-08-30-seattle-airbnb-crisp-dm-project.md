@@ -63,45 +63,45 @@ Given the abundance of quantitative data and the added context of my business qu
 
 ![...](/docs/assets/images/seattle-highest-rated.png)
 
-**Figure 1.** *[Seattle's highest rated neighbourhoods.]*
+**Figure 1.** *Seattle's highest rated neighbourhoods.*
 
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
 
 ![...](/docs/assets/images/seattle-highest-revenue.png)
 
-**Figure 2.** *[Seattle's highest revenue generating neighbourhoods]*
+**Figure 2.** *Seattle's highest revenue generating neighbourhoods.*
 
 **3. Which scores are most important to overall ratings? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-scores-ratings-heatmap.png)
 
-**Figure 3.** *[...]*
+**Figure 3.** *Heatmap of correlation between overall ratings & composite ratings.*
 
 ![...](/docs/assets/images/seattle-scores-ratings-bar.png)
 
-**Figure 4.** *[...]*
+**Figure 4.** *Composite rating importance to overall rating.*
 
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-scores-revenue-heatmap.png)
 
-**Figure 5.** *[...]*
+**Figure 5.** *Heatmap of correlation between overall ratings & revenue.*
 
 ![...](/docs/assets/images/seattle-scores-revenue-bar.png)
 
-**Figure 6.** *[...]*
+**Figure 6.** *Composite and overall rating importance to revenue.*
 
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
 ![...](/docs/assets/images/seattle-top-amenities.png)
 
-**Figure 7.** *[...]*
+**Figure 7.** *Top amenities provided by hosts in Seattle.*
 
 **6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-feature-importance-revenue.png)
 
-**Figure 8.** *[...]*
+**Figure 8.** *Feature importance for characteristics contributing to host revenue.*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart and list.
 
@@ -139,7 +139,7 @@ Amenities which are valuable in order of descending value in positive associatio
 
 ![...](/docs/assets/images/seattle-feature-importance-rating.png)
 
-**Figure 9.** *[...]*
+**Figure 9.** *Feature importance for characteristics contributing to host overall rating.*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart and list.
 
@@ -161,6 +161,8 @@ Additionally, amenities provided which tend to garner higher ratings are listed 
 Neighbourhoods with positive ratings include Rainier Valley, Central Area, Beacon Hill, Delridge, West Seattle, and Capitol Hill. Interestingly, neighbourhoods previously seen to be associated with lower revenue also tend to be favoured positively in terms of user ratings. This may indicate that such areas offer high value for guests purely for their location while being low revenue generating perhaps due to earning lower prices with frequent to infrequent overall occupancy. It may alternatively also be a combination of being located in a highly desirable urban area but costlier for the guest and therefore infrequently occupied garnering overall lower revenues while still commanding high ratings. The latter alternative would also apply for high revenue generating areas such as Capitol Hill, Central Area, and Rainier Valley which are also highly rated therefore indicating high prices and high occupancy alike.
 
 ### Evaluation
+
+[...]
 
 ### Reference
 
