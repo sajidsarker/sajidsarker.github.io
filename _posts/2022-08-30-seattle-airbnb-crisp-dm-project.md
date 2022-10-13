@@ -12,7 +12,9 @@ tags: [Machine Learning, Data Science]
 
 **Airbnb, Inc.**<sup>[[1]](https://en.wikipedia.org/wiki/Airbnb)</sup> is an online marketplace where hosts and guests can organise bookings of temporary lodgings for home-stays. The company itself does not own real estate or hotel properties, but acts as brokers receiving commissions on bookings for maintaining the platform for hosts and guests.
 
-For my project<sup>[[2]](https://github.com/sajidsarker/seattle-airbnb-crispdm)</sup>, I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle (WA) between 2016-2017 for exploratory data analysis and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
+For my project, I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle (WA) between 2016-2017 for exploratory data analysis and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
+
+The Github repository I have created entitled *"Seattle Airbnb CRISP-DM Project"*<sup>[[2]](https://github.com/sajidsarker/seattle-airbnb-crispdm)</sup> contains an HTML knit of the Python Notebook with which I conducted all modelling & analysis.
 
 ### CRISP-DM
 
@@ -51,7 +53,7 @@ I end up only using the datasets titled **Listings.csv*** and **Reviews.csv**, a
 
 ### Data Preparation & Modelling
 
-[...]
+Given the abundance of quantitative data and the added context of my business questions, much of the modelling I conducted ahead of analysis of my involves **Linear Regression** which is a form of **Generalised Linear Modelling (GLM)**. Aside from this, I use simple descriptive statistical analysis
 
 ### Analysis
 
@@ -71,7 +73,7 @@ The Top 25 amenities, housing characteristics, and similar factors contributing 
 
 Revenues are generally positively associated with Airbnb listings with a strict cancellation policy and for hosts with Super Host status. This would imply that verification of hosts in this manner and strong enforcement of scheduling can either ensure higher quality guests, or that well-maintained and valuable properties with experienced hosts tend to attract more guests. It also appears that guest ratings for the Check-In experience is also a factor which is positively associated to revenue.
 
-When considering if a particular listing is of room type 'Entire Home or Apartment' on Airbnb, it is associated strongly with positive contrbution to revenue. Listings that are the entire property tend to be more desirable by guests or garner higher prices due to whole units being limited to individual guest demand. No particular neighbourhoods stand out as significant features with positive contributor to revenue, except that for properties listed in the neighbourhoods of West Seattle, Magnolia, Delridge, Rainier Valley, and Seward Park will experience lower revenue.
+When considering if a particular listing is of room type 'Entire Home or Apartment' on Airbnb, it is associated strongly with positive contribution to revenue. Listings that are the entire property tend to be more desirable by guests or garner higher prices due to whole units being limited to individual guest demand. No particular neighbourhoods stand out as significant features with positive contributor to revenue, except that for properties listed in the neighbourhoods of West Seattle, Magnolia, Delridge, Rainier Valley, and Seward Park will experience lower revenue.
 
 The nature of the particular housing property listed on Airbnb associated strongly with a positive contribution as a feature that explains revenue includes:
 
