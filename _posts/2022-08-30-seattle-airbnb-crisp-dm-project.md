@@ -16,6 +16,8 @@ Having called Seattle (WA) a home for several years now, I was quite excited to 
 
 The Github repository I have created entitled *"Seattle Airbnb CRISP-DM Project"*<sup>[[2]](https://github.com/sajidsarker/seattle-airbnb-crispdm)</sup> contains an HTML knit of the Python Notebook in which I conducted all modelling & analysis.
 
+Additionally, you may find a backup of the dataset from Airbnb along with instructions on how to clone the repository, install relevant Python packages used, and run the notebook in *Jupyter Lab*.
+
 ### CRISP-DM
 
 **Cross Industry Standard Process for Data Mining** is a methodological approach to investigating business questions in a data-driven manner in the field of Data Science. The **CRISP-DM Process** involves the following steps:
@@ -59,39 +61,47 @@ Given the abundance of quantitative data and the added context of my business qu
 
 **1. What are the highest rated areas to to reserve accommodations in Seattle?**
 
-![...](/docs/assets/images/nn.png)
+![...](/docs/assets/images/seattle-highest-rated.png)
 
-**Figure 1.** *[...]*
+**Figure 1.** *[Seattle's highest rated neighbourhoods.]*
 
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
 
-![...](/docs/assets/images/nn.png)
+![...](/docs/assets/images/seattle-highest-revenue.png)
 
-**Figure 1.** *[...]*
+**Figure 2.** *[Seattle's highest revenue generating neighbourhoods]*
 
 **3. Which scores are most important to overall ratings? (Linear Regression)**
 
-![...](/docs/assets/images/nn.png)
+![...](/docs/assets/images/seattle-scores-ratings-heatmap.png)
 
-**Figure 1.** *[...]*
+**Figure 3.** *[...]*
+
+![...](/docs/assets/images/seattle-scores-ratings-bar.png)
+
+**Figure 4.** *[...]*
 
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
 
-![...](/docs/assets/images/nn.png)
+![...](/docs/assets/images/seattle-scores-revenue-heatmap.png)
 
-**Figure 1.** *[...]*
+**Figure 5.** *[...]*
+
+![...](/docs/assets/images/seattle-scores-revenue-bar.png)
+
+**Figure 6.** *[...]*
 
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
-![...](/docs/assets/images/nn.png)
+![...](/docs/assets/images/seattle-top-amenities.png)
 
-**Figure 1.** *[...]*
+**Figure 7.** *[...]*
 
 **6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)**
 
-![...](/docs/assets/images/nn.png)
+![...](/docs/assets/images/seattle-feature-importance-revenue.png)
 
-**Figure 1.** *[...]*
+**Figure 8.** *[...]*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart and list.
 
@@ -127,9 +137,9 @@ Amenities which are valuable in order of descending value in positive associatio
 
 **7. Which amenities, housing characteristics, and factors contribute positively to ratings? (Linear Regression)**
 
-![...](/docs/assets/images/nn.png)
+![...](/docs/assets/images/seattle-feature-importance-rating.png)
 
-**Figure 1.** *[...]*
+**Figure 9.** *[...]*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart and list.
 
