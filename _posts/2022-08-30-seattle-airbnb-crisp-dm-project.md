@@ -12,7 +12,7 @@ tags: [Machine Learning, Data Science]
 
 **Airbnb, Inc.**<sup>[[1]](https://en.wikipedia.org/wiki/Airbnb)</sup> is an online marketplace where hosts and guests can organise bookings of temporary lodgings for home-stays. The company itself does not own real estate or hotel properties, but acts as brokers receiving commissions on bookings for maintaining the platform for hosts and guests.
 
-I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle (WA) between 2016-2017 for data and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
+For my project<sup>[[2]](https://github.com/sajidsarker/seattle-airbnb-crispdm)</sup>, I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle (WA) between 2016-2017 for exploratory data analysis and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
 
 ### CRISP-DM
 
@@ -29,7 +29,7 @@ I apply the relevant steps of this process in my approach for this particular Da
 
 ### Business Understanding
 
-On a preliminary review of the data schema, I am interested in finding some answers to the following questions:
+On a preliminary review of the data schema, I am interested in finding answers to the following questions:
 
 1. What are the highest rated areas to to reserve accommodations in Seattle?
 2. What are the highest revenue generating neighbourhoods in Seattle?
@@ -47,6 +47,8 @@ Data is provided courtesy of Airbnb for the city of Seattle, WA during the perio
 - **Reviews.csv** contains reviews after home-stays
 - **Calendar.csv** contains pricing for listings on specific days
 
+I end up only using the datasets titled **Listings.csv*** and **Reviews.csv**, as **Calendar.csv*** does not contain data pertinent to the context of my questions.
+
 ### Data Preparation & Modelling
 
 [...]
@@ -54,9 +56,13 @@ Data is provided courtesy of Airbnb for the city of Seattle, WA during the perio
 ### Analysis
 
 **1. What are the highest rated areas to to reserve accommodations in Seattle?**
+
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
+
 **3. Which scores are most important to overall ratings? (Linear Regression)**
+
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
+
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
 **6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)**
@@ -116,7 +122,7 @@ Neighbourhoods with positive ratings include Rainier Valley, Central Area, Beaco
 
 ### Evaluation
 
-### References
+### Reference
 
 [[1] Airbnb, Inc. - Wikipedia](https://en.wikipedia.org/wiki/Airbnb)
 
