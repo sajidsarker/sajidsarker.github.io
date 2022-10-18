@@ -93,6 +93,8 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 **Figure 5.** *Composite rating importance to overall rating.*
 
+It appears that conducting a regression on the training dataset indicates that component review scores explain 56.76% of overall review rating for test dataset in this linear regression model.
+
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-scores-revenue-heatmap.png)
@@ -102,6 +104,10 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 ![...](/docs/assets/images/seattle-scores-revenue-bar.png)
 
 **Figure 7.** *Composite and overall rating importance to revenue.*
+
+At first, it appears that listings with high value for money ratings are largely associated with the most negative impact on estimated revenues earned. Positive ratings for check-in experience, location, openness in communication of the host, and cleanliness are all positively associated with estimated revenues earned. Overall ratings is positively associated with the lowest estimated revenues earned. Listings where hosts provided great value and listed accurate descriptions were associated with negative impact to estimated revenues.
+
+However, given virtually no explanatory power (0.11% of target explained by features), incredibly high error in our residuals, and statistically insignificant coefficients, it would be inappropriate to interpret any explanatory effect of review ratings on revenue.
 
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
@@ -114,6 +120,8 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 ![...](/docs/assets/images/seattle-feature-importance-revenue.png)
 
 **Figure 9.** *Feature importance for characteristics contributing to host revenue.*
+
+It appears that conducting a regression on the training dataset indicates that the listed regressors explain 23.34% of out-of-sample test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart and list.
 
@@ -152,6 +160,8 @@ Amenities which are valuable in order of descending value in positive associatio
 ![...](/docs/assets/images/seattle-feature-importance-rating.png)
 
 **Figure 10.** *Feature importance for characteristics contributing to host overall rating.*
+
+It appears that conducting a regression on the training dataset indicates that the listed regressors explain 56.24% of test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart and list.
 
