@@ -18,6 +18,7 @@ The Github repository I have created entitled *"Seattle Airbnb CRISP-DM Project"
 
 Additionally, you may find a backup of the dataset from Airbnb along with instructions on how to clone the repository, install relevant Python packages used, and run the notebook in *Jupyter Lab*.
 
+
 ### CRISP-DM
 
 **Cross Industry Standard Process for Data Mining** is a methodological approach to investigating business questions in a data-driven manner in the field of Data Science. The **CRISP-DM Process** involves the following steps:
@@ -31,6 +32,7 @@ Additionally, you may find a backup of the dataset from Airbnb along with instru
 
 I apply the relevant steps of this process in my approach for this particular Data Science project.
 
+
 ### Business Understanding
 
 On a preliminary review of the data schema, I am interested in finding answers to the following questions:
@@ -43,6 +45,7 @@ On a preliminary review of the data schema, I am interested in finding answers t
 6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)
 7. Which amenities, housing characteristics, and factors contribute positively to ratings? (Linear Regression)
 
+
 ### Data Understanding
 
 Data is provided courtesy of Airbnb for the city of Seattle, WA during the period of 2016-2017:
@@ -53,11 +56,13 @@ Data is provided courtesy of Airbnb for the city of Seattle, WA during the perio
 
 I end up only using the datasets titled **Listings.csv** and **Reviews.csv**, as **Calendar.csv** does not contain data pertinent to the context of my questions.
 
+
 ### Data Preparation & Modelling
 
 Given the abundance of quantitative data and the added context of my business questions, much of the modelling I conducted ahead of analysis of my involves **Linear Regression** which is a form of **Generalised Linear Modelling (GLM)**. Aside from this, I use simple descriptive statistics to support my preliminary analysis.
 
 As we are focusing on **Linear Regression** with business questions seeking inference over prediction. I use a split of observations to ensure much explanatory power can be gleaned from our list of features to determine feature importance. I extract the coefficients (beta parameters) from our linear regression for light interpretation and to understand the magnitude and direction of impact on our target.
+
 
 ### Exploration
 
@@ -69,6 +74,7 @@ There appear to be distinct clumps of features exhibiting higher degrees of corr
 
 Property configuration (beds, bathrooms) are nearly perfectly related as they are somewhat dependent on each other or can be imputed due to standard industrial configuration in the housing market (e.g. 2 bed 1 bath). Pricing structures exhibit stronger correlation as high priced listings are correlated with higher maintenance charges.
 
+
 ### Analysis
 
 **1. What are the highest rated areas to to reserve accommodations in Seattle?**
@@ -77,11 +83,13 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 **Figure 2.** *Seattle's highest rated neighbourhoods.*
 
+
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
 
 ![...](/docs/assets/images/seattle-highest-revenue.png)
 
 **Figure 3.** *Seattle's highest revenue generating neighbourhoods.*
+
 
 **3. Which scores are most important to overall ratings? (Linear Regression)**
 
@@ -94,6 +102,7 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 **Figure 5.** *Composite rating importance to overall rating.*
 
 It appears that conducting a regression on the training dataset indicates that component review scores explain 56.76% of overall review rating for test dataset in this linear regression model.
+
 
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
 
@@ -109,11 +118,13 @@ At first, it appears that listings with high value for money ratings are largely
 
 However, given virtually no explanatory power (0.11% of target explained by features), incredibly high error in our residuals, and statistically insignificant coefficients, it would be inappropriate to interpret any explanatory effect of review ratings on revenue.
 
+
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
 ![...](/docs/assets/images/seattle-top-amenities.png)
 
 **Figure 8.** *Top amenities provided by hosts in Seattle.*
+
 
 **6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)**
 
@@ -155,6 +166,7 @@ Amenities which are valuable in order of descending value in positive associatio
 - Buzzer / Wireless Intercom
 - Washer & Dryer
 
+
 **7. Which amenities, housing characteristics, and factors contribute positively to ratings? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-feature-importance-rating.png)
@@ -182,9 +194,11 @@ Additionally, amenities provided which tend to garner higher ratings are listed 
 
 Neighbourhoods with positive ratings include Rainier Valley, Central Area, Beacon Hill, Delridge, West Seattle, and Capitol Hill. Interestingly, neighbourhoods previously seen to be associated with lower revenue also tend to be favoured positively in terms of user ratings. This may indicate that such areas offer high value for guests purely for their location while being low revenue generating perhaps due to earning lower prices with frequent to infrequent overall occupancy. It may alternatively also be a combination of being located in a highly desirable urban area but costlier for the guest and therefore infrequently occupied garnering overall lower revenues while still commanding high ratings. The latter alternative would also apply for high revenue generating areas such as Capitol Hill, Central Area, and Rainier Valley which are also highly rated therefore indicating high prices and high occupancy alike.
 
+
 ### Evaluation
 
 [...]
+
 
 ### Reference
 
