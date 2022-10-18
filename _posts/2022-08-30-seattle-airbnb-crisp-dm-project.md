@@ -57,51 +57,63 @@ I end up only using the datasets titled **Listings.csv** and **Reviews.csv**, as
 
 Given the abundance of quantitative data and the added context of my business questions, much of the modelling I conducted ahead of analysis of my involves **Linear Regression** which is a form of **Generalised Linear Modelling (GLM)**. Aside from this, I use simple descriptive statistics to support my preliminary analysis.
 
+As we are focusing on **Linear Regression** with business questions seeking inference over prediction. I use a split of observations to ensure much explanatory power can be gleaned from our list of features to determine feature importance. I extract the coefficients (beta parameters) from our linear regression for light interpretation and to understand the magnitude and direction of impact on our target.
+
+### Exploration
+
+![...](/docs/assets/images/seattle-eda-data-heatmap.png)
+
+**Figure 1.** *Correlation heatmap of our fully cleaned and prepared dataset.*
+
+There appear to be distinct clumps of features exhibiting higher degrees of correlation. Amenities which are common tend to be present due to potential legal requirement or as a standard, therefore exhibiting positive correlation. Additionally, certain luxurious amenities are correlated with higher priced listings.
+
+Property configuration (beds, bathrooms) are nearly perfectly related as they are somewhat dependent on each other or can be imputed due to standard industrial configuration in the housing market (e.g. 2 bed 1 bath). Pricing structures exhibit stronger correlation as high priced listings are correlated with higher maintenance charges.
+
 ### Analysis
 
 **1. What are the highest rated areas to to reserve accommodations in Seattle?**
 
 ![...](/docs/assets/images/seattle-highest-rated.png)
 
-**Figure 1.** *Seattle's highest rated neighbourhoods.*
+**Figure 2.** *Seattle's highest rated neighbourhoods.*
 
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
 
 ![...](/docs/assets/images/seattle-highest-revenue.png)
 
-**Figure 2.** *Seattle's highest revenue generating neighbourhoods.*
+**Figure 3.** *Seattle's highest revenue generating neighbourhoods.*
 
 **3. Which scores are most important to overall ratings? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-scores-ratings-heatmap.png)
 
-**Figure 3.** *Heatmap of correlation between overall ratings & composite ratings.*
+**Figure 4.** *Heatmap of correlation between overall ratings & composite ratings.*
 
 ![...](/docs/assets/images/seattle-scores-ratings-bar.png)
 
-**Figure 4.** *Composite rating importance to overall rating.*
+**Figure 5.** *Composite rating importance to overall rating.*
 
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-scores-revenue-heatmap.png)
 
-**Figure 5.** *Heatmap of correlation between overall ratings & revenue.*
+**Figure 6.** *Heatmap of correlation between overall ratings & revenue.*
 
 ![...](/docs/assets/images/seattle-scores-revenue-bar.png)
 
-**Figure 6.** *Composite and overall rating importance to revenue.*
+**Figure 7.** *Composite and overall rating importance to revenue.*
 
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
 ![...](/docs/assets/images/seattle-top-amenities.png)
 
-**Figure 7.** *Top amenities provided by hosts in Seattle.*
+**Figure 8.** *Top amenities provided by hosts in Seattle.*
 
 **6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)**
 
 ![...](/docs/assets/images/seattle-feature-importance-revenue.png)
 
-**Figure 8.** *Feature importance for characteristics contributing to host revenue.*
+**Figure 9.** *Feature importance for characteristics contributing to host revenue.*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart and list.
 
@@ -139,7 +151,7 @@ Amenities which are valuable in order of descending value in positive associatio
 
 ![...](/docs/assets/images/seattle-feature-importance-rating.png)
 
-**Figure 9.** *Feature importance for characteristics contributing to host overall rating.*
+**Figure 10.** *Feature importance for characteristics contributing to host overall rating.*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart and list.
 
