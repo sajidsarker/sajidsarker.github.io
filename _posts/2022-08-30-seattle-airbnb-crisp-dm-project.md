@@ -83,6 +83,68 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 **Figure 2.** *Seattle's highest rated neighbourhoods.*
 
+<table class="dataframe" border="1">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>area</th>
+      <th>mean_rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>4</th>
+      <td>Central Area</td>
+      <td>96.163957</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>West Seattle</td>
+      <td>96.061576</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Delridge</td>
+      <td>95.987342</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Queen Anne</td>
+      <td>95.701695</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ballard</td>
+      <td>95.686957</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Seward Park</td>
+      <td>95.022727</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Northgate</td>
+      <td>94.912500</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Rainier Valley</td>
+      <td>94.911950</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Other neighborhoods</td>
+      <td>94.785894</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Lake City</td>
+      <td>94.701493</td>
+    </tr>
+  </tbody>
+</table>
+
 <br>
 
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
