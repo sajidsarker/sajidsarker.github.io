@@ -83,6 +83,7 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 **Figure 2.** *Seattle's highest rated neighbourhoods.*
 
+<br>
 
 **2. What are the highest revenue generating neighbourhoods in Seattle?**
 
@@ -90,6 +91,7 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 **Figure 3.** *Seattle's highest revenue generating neighbourhoods.*
 
+<br>
 
 **3. Which scores are most important to overall ratings? (Linear Regression)**
 
@@ -103,6 +105,17 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 It appears that conducting a regression on the training dataset indicates that component review scores explain 56.76% of overall review rating for test dataset in this linear regression model.
 
+The Top 3 review factors which impact overall rating for a host are:
+
+    Value
+    Cleanliness
+    Accuracy
+
+This implies that guests put increased weight on the value for money of their stay, the cleanliness of the accommodations provided by the host, and the degree to which the host's description of their accommodations accurately match the provided description when determining their overall score for a stay.
+
+This differs from the correlation matrix indicating that check-in experience was the third most correlated contributor to the overall rating, but otherwise relatively matches 2/3 contributors except in order of correlation to coefficient impact.
+
+<br>
 
 **4. Do hosts with higher ratings overall earn higher revenue? (Linear Regression)**
 
@@ -118,6 +131,7 @@ At first, it appears that listings with high value for money ratings are largely
 
 However, given virtually no explanatory power (0.11% of target explained by features), incredibly high error in our residuals, and statistically insignificant coefficients, it would be inappropriate to interpret any explanatory effect of review ratings on revenue.
 
+<br>
 
 **5. What are the most widely provided amenities listed by hosts in Seattle?**
 
@@ -125,6 +139,7 @@ However, given virtually no explanatory power (0.11% of target explained by feat
 
 **Figure 8.** *Top amenities provided by hosts in Seattle.*
 
+<br>
 
 **6. Which amenities, housing characteristics, and factors contribute positively to revenue? (Linear Regression)**
 
@@ -166,6 +181,7 @@ Amenities which are valuable in order of descending value in positive associatio
 - Buzzer / Wireless Intercom
 - Washer & Dryer
 
+<br>
 
 **7. Which amenities, housing characteristics, and factors contribute positively to ratings? (Linear Regression)**
 
