@@ -415,7 +415,7 @@ Given that the scope of this project remained quite small, and the constraints o
 
 In future, were I to extend this project, I would use alternative variations of **Generalised Linear Models** with better predictive power to gauge feature importance while maintaining similar interpretability.
 
-Additionally, I would use certain techniques in dimensionality reduction to limit certain groups of features to produce composite features or drop features with poor explanatory power for my modelling.
+Additionally, I would use certain techniques in dimensionality reduction such as **Principal Component Analysis (PCA)** to limit certain groups of features and produce composite features, or exclusion testing to drop features with poor explanatory power for my modelling.
 
 ### Reference
 
