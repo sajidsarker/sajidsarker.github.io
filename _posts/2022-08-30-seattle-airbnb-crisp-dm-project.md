@@ -153,6 +153,68 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 **Figure 3.** *Seattle's highest revenue generating neighbourhoods.*
 
+<table class="dataframe" border="1">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>area</th>
+      <th>mean_revenue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>6</th>
+      <td>Downtown</td>
+      <td>7247.666038</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Beacon Hill</td>
+      <td>6606.983051</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ballard</td>
+      <td>6078.726087</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Queen Anne</td>
+      <td>6038.752542</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Capitol Hill</td>
+      <td>4951.910053</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Central Area</td>
+      <td>4636.371274</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Other neighborhoods</td>
+      <td>4409.843829</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Cascade</td>
+      <td>4075.134831</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Seward Park</td>
+      <td>4063.500000</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Rainier Valley</td>
+      <td>3827.345912</td>
+    </tr>
+  </tbody>
+</table>
+
 <br>
 
 **3. Which scores are most important to overall ratings? (Linear Regression)**
@@ -167,11 +229,34 @@ Property configuration (beds, bathrooms) are nearly perfectly related as they ar
 
 It appears that conducting a regression on the training dataset indicates that component review scores explain 56.76% of overall review rating for test dataset in this linear regression model.
 
+<table class="dataframe" border="1">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>review_scores_rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>review_scores_accuracy</th>
+      <td>0.622603</td>
+    </tr>
+    <tr>
+      <th>review_scores_cleanliness</th>
+      <td>0.643828</td>
+    </tr>
+    <tr>
+      <th>review_scores_checkin</th>
+      <td>0.522128</td>
+    </tr>
+  </tbody>
+</table>
+
 The Top 3 review factors which impact overall rating for a host are:
 
-    Value
-    Cleanliness
-    Accuracy
+1. Value
+2. Cleanliness
+3. Accuracy
 
 This implies that guests put increased weight on the value for money of their stay, the cleanliness of the accommodations provided by the host, and the degree to which the host's description of their accommodations accurately match the provided description when determining their overall score for a stay.
 
