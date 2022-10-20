@@ -151,9 +151,11 @@ It appears that conducting a regression on the training dataset indicates that t
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart and list.
 
-Revenues are generally positively associated with Airbnb listings with a strict cancellation policy and for hosts with Super Host status. This would imply that verification of hosts in this manner and strong enforcement of scheduling can either ensure higher quality guests, or that well-maintained and valuable properties with experienced hosts tend to attract more guests. It also appears that guest ratings for the Check-In experience is also a factor which is positively associated to revenue.
+Revenues are generally positively associated with Airbnb listings with a strict cancellation policy and for hosts with Super Host status. This would imply that verification of hosts in this manner and strong enforcement of scheduling can either ensure higher quality guests, or that well-maintained and valuable properties with experienced hosts tend to attract more guests. It also appears that guest ratings for the check-in experience is also a factor which is positively associated to revenue.
 
-When considering if a particular listing is of room type 'Entire Home or Apartment' on Airbnb, it is associated strongly with positive contribution to revenue. Listings that are the entire property tend to be more desirable by guests or garner higher prices due to whole units being limited to individual guest demand. No particular neighbourhoods stand out as significant features with positive contributor to revenue, except that for properties listed in the neighbourhoods of West Seattle, Magnolia, Delridge, Rainier Valley, and Seward Park will experience lower revenue.
+When considering if a particular listing is of room type 'Entire Home or Apartment' on Airbnb, it is associated strongly with positive contribution to revenue. Listings that are the entire property tend to be more desirable by guests or garner higher prices due to whole units being limited to individual guest demand.
+
+No particular neighbourhoods stand out as significant features with positive contributor to revenue, except that for properties listed in the neighbourhoods of West Seattle, Magnolia, Delridge, Rainier Valley, and Seward Park will experience lower revenue.
 
 The nature of the particular housing property listed on Airbnb associated strongly with a positive contribution as a feature that explains revenue includes:
 
@@ -193,7 +195,9 @@ It appears that conducting a regression on the training dataset indicates that t
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart and list.
 
-Ratings are generally positively associated with Airbnb listings where hosts hold Super Host status and are verified. This would imply that positive recommendation and verification of hosts in this manner attracts and reassures guests that their host can be trusted, is seasoned, and has a reputation for offering a stellar experience. It also appears that prior investigated ratings of value, cleanliness, listing accuracy, host communication, check-in experience, and location all factor positively and significantly as composite measures explaining overall ratings.
+Ratings are generally positively associated with Airbnb listings where hosts hold Super Host status and are verified. This would imply that positive recommendation and verification of hosts in this manner attracts and reassures guests that their host can be trusted, is seasoned, and has a reputation for offering a stellar experience.
+
+It also appears that prior investigated ratings of value, cleanliness, listing accuracy, host communication, check-in experience, and location all factor positively and significantly as composite measures explaining overall ratings.
 
 Interestingly, dormitory style properties tend to also be well-rated, as do housing with more bathrooms. For the latter characteristic, privacy and accessibility are appreciated by guests, while the former may indicate that guests enjoy shared guest experiences perhaps for socialisation.
 
@@ -208,7 +212,13 @@ Additionally, amenities provided which tend to garner higher ratings are listed 
 - Kitchen
 - Smoker-friendly
 
-Neighbourhoods with positive ratings include Rainier Valley, Central Area, Beacon Hill, Delridge, West Seattle, and Capitol Hill. Interestingly, neighbourhoods previously seen to be associated with lower revenue also tend to be favoured positively in terms of user ratings. This may indicate that such areas offer high value for guests purely for their location while being low revenue generating perhaps due to earning lower prices with frequent to infrequent overall occupancy. It may alternatively also be a combination of being located in a highly desirable urban area but costlier for the guest and therefore infrequently occupied garnering overall lower revenues while still commanding high ratings. The latter alternative would also apply for high revenue generating areas such as Capitol Hill, Central Area, and Rainier Valley which are also highly rated therefore indicating high prices and high occupancy alike.
+Neighbourhoods with positive ratings include Rainier Valley, Central Area, Beacon Hill, Delridge, West Seattle, and Capitol Hill. Interestingly, neighbourhoods previously seen to be associated with lower revenue also tend to be favoured positively in terms of user ratings.
+
+This may indicate that such areas offer high value for guests purely for their location while being low revenue generating perhaps due to earning lower prices with frequent to infrequent overall occupancy.
+
+It may alternatively also be a combination of being located in a highly desirable urban area but costlier for the guest and therefore infrequently occupied garnering overall lower revenues while still commanding high ratings.
+
+The latter alternative would also apply for high revenue generating areas such as Capitol Hill, Central Area, and Rainier Valley which are also highly rated therefore indicating high prices and high occupancy alike.
 
 
 ### Evaluation
