@@ -7,7 +7,8 @@ tags: [Machine Learning, Data Science]
 ## Seattle Airbnb CRISP-DM Project
 
 ![Seattle's Space Needle](/docs/assets/images/seattle-banner.png)
-© Sajid Al Sanai, 2020.
+
+**© Sajid Sarker, 2020.**
 
 ### Motivation
 
