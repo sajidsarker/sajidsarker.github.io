@@ -328,7 +328,7 @@ This can be construed to identify a specific baseline for amenities which a host
 
 **Figure 9.** *Feature importance for characteristics contributing to host revenue.*
 
-It appears that conducting a regression on the training dataset indicates that the listed regressors explain 23.34% of out-of-sample test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.
+*It appears that conducting a regression on the training dataset indicates that the listed regressors explain 23.34% of out-of-sample test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart.
 
@@ -380,7 +380,7 @@ No particular neighbourhoods stand out as significant features with positive con
 
 **Figure 10.** *Feature importance for characteristics contributing to host overall rating.*
 
-It appears that conducting a regression on the training dataset indicates that the listed regressors explain 56.24% of test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.
+*It appears that conducting a regression on the training dataset indicates that the listed regressors explain 56.24% of test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.*
 
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart.
 
