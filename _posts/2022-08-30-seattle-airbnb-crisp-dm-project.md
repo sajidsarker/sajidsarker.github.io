@@ -238,16 +238,16 @@ It appears that conducting a regression on the training dataset indicates that c
   </thead>
   <tbody>
     <tr>
-      <th>review_scores_accuracy</th>
-      <td>0.622603</td>
+      <th>review_scores_value</th>
+      <td>0.682126</td>
     </tr>
     <tr>
       <th>review_scores_cleanliness</th>
       <td>0.643828</td>
     </tr>
     <tr>
-      <th>review_scores_checkin</th>
-      <td>0.522128</td>
+      <th>review_scores_accuracy</th>
+      <td>0.622603</td>
     </tr>
   </tbody>
 </table>
