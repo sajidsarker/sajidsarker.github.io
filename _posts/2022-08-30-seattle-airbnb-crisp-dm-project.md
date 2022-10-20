@@ -404,6 +404,9 @@ The latter alternative would also apply for high revenue generating areas such a
 
 Given that the scope of this project remained quite small, and the constraints of the CRISP-DM approach with the context of our business questions did not necessitate any predictive analysis or rigorous machine learning models, the regression models produced, while fairly strong in identifying underlying associations, should only be taken as a preliminary investigation into some of the fundamental characteristics for the Airbnb market in Seattle.
 
+In future, were I to extend this project, I would use alternative variations of **Generalised Linear Models** with better predictive power to gauge feature importance while maintaining similar interpretability.
+
+Additionally, I would use certain techniques in dimensionality reduction to limit certain groups of features to produce composite features or drop features with poor explanatory power for my modelling.
 
 ### Reference
 
