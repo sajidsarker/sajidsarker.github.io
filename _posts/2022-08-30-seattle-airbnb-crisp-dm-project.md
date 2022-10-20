@@ -239,13 +239,13 @@ Downtown, Beacon Hill, and Ballard are the Top 3 highest revenue generating neig
 
 ![...](/docs/assets/images/seattle-scores-ratings-heatmap.png)
 
-**Figure 4.** *Heatmap of correlation between overall ratings & composite ratings.*
+**Figure 4.** *Heatmap of correlation between overall ratings & component ratings.*
 
-There appears to be a relatively strong positive correlation between overall ratings and composite ratings scored by guests for listings.
+There appears to be a relatively strong positive correlation between overall ratings and component ratings scored by guests for listings.
 
 ![...](/docs/assets/images/seattle-scores-ratings-bar.png)
 
-**Figure 5.** *Composite rating importance to overall rating.*
+**Figure 5.** *Component rating importance to overall rating.*
 
 It appears that conducting a regression on the training dataset indicates that component review scores explain 56.76% of overall review rating for test dataset in this linear regression model.
 
@@ -272,7 +272,7 @@ It appears that conducting a regression on the training dataset indicates that c
   </tbody>
 </table>
 
-**Table 3.** *Correlation between composite ratings and overall rating.*
+**Table 3.** *Correlation between component ratings and overall rating.*
 
 The Top 3 review factors which impact overall rating for a host are:
 
@@ -386,7 +386,7 @@ The Top 25 amenities, housing characteristics, and similar factors contributing 
 
 Ratings are generally positively associated with Airbnb listings where hosts hold Super Host status and are verified. This would imply that positive recommendation and verification of hosts in this manner attracts and reassures guests that their host can be trusted, is seasoned, and has a reputation for offering a stellar experience.
 
-It also appears that prior investigated ratings of value, cleanliness, listing accuracy, host communication, check-in experience, and location all factor positively and significantly as composite measures explaining overall ratings.
+It also appears that prior investigated ratings of value, cleanliness, listing accuracy, host communication, check-in experience, and location all factor positively and significantly as component measures explaining overall ratings.
 
 Interestingly, dormitory style properties tend to also be well-rated, as do housing with more bathrooms. For the latter characteristic, privacy and accessibility are appreciated by guests, while the former may indicate that guests enjoy shared guest experiences perhaps for socialisation.
 
