@@ -36,7 +36,7 @@ Additionally, you may find a backup of the dataset from Airbnb along with instru
 5. Evaluation
 6. Deployment
 
-I apply the relevant steps of this process in my approach for this particular Data Science project.
+I apply the relevant steps of this process in my approach for this particular Data Science project. These steps are fully applied and results delineated with code in the Python notebook stored in the aforementioned Github repository.
 
 
 ### Business Understanding
