@@ -1,24 +1,20 @@
 ---
 layout: post
-title: What Seattle Home-stay Hosts can learn from Airbnb's Data
+title: Seattle Airbnb CRISP-DM Project
 date: 2022-08-30 02:23:41
 tags: [Machine Learning, Data Science]
 ---
-## What Seattle Home-stay Hosts can learn from Airbnb's Data
+## Seattle Airbnb CRISP-DM Project
 
 ![Seattle's Space Needle](/docs/assets/images/seattle-banner.JPG)
 
 **© Sajid Sarker, 2020.**
-
-<br>
 
 ### Motivation
 
 **Airbnb, Inc.**<sup>[[1]](https://en.wikipedia.org/wiki/Airbnb)</sup> is an online marketplace where hosts and guests can organise bookings of temporary lodgings for home-stays. The company itself does not own real estate or hotel properties, but acts as brokers receiving commissions on bookings for maintaining the platform for hosts and guests.
 
 Having called Seattle (WA) a home for several years now, I was quite excited to be able to sink my teeth into this project. For my project, I utilise data regarding listings of properties by Airbnb hosts in the city of Seattle between 2016-2017 for exploratory data analysis and regression analysis using the CRISP-DM process. I identify several questions of business interest which I attempt to answer through analysis of the available data.
-
-Hopefully, these findings from Airbnb data can provide some illuminating clues for home-stay hosts in Seattle to take advantage of and improve their service and also ameliorate their revenues and ratings. In turn, Airbnb stands to gain a greater platform reputation for the quality of its home-stay experiences.
 
 The Github repository I have created entitled *"Seattle Airbnb CRISP-DM Project"*<sup>[[2]](https://github.com/sajidsarker/seattle-airbnb-crispdm)</sup> contains an HTML knit of the Python Notebook in which I conducted all modelling & analysis.
 
@@ -60,7 +56,14 @@ Data is provided courtesy of Airbnb for the city of Seattle, WA during the perio
 - **Reviews.csv** contains reviews after home-stays
 - **Calendar.csv** contains pricing for listings on specific days
 
-I only use the datasets titled **Listings.csv** and **Reviews.csv**, as **Calendar.csv** does not contain data pertinent to the context of my questions.
+I end up only using the datasets titled **Listings.csv** and **Reviews.csv**, as **Calendar.csv** does not contain data pertinent to the context of my questions.
+
+
+### Data Preparation & Modelling
+
+Given the abundance of quantitative data and the added context of my business questions, much of the modelling I conducted ahead of analysis of my involves **Linear Regression** which is a form of **Generalised Linear Modelling (GLM)**. Aside from this, I use simple descriptive statistics to support my preliminary analysis.
+
+As we are focusing on **Linear Regression** with business questions seeking inference over prediction. I use a split of observations to ensure much explanatory power can be gleaned from our list of features to determine feature importance. I extract the coefficients (beta parameters) from our linear regression for light interpretation and to understand the magnitude and direction of impact on our target.
 
 
 ### Exploration
@@ -325,6 +328,8 @@ This can be construed to identify a specific baseline for amenities which a host
 
 **Figure 9.** *Feature importance for characteristics contributing to host revenue.*
 
+*It appears that conducting a regression on the training dataset indicates that the listed regressors explain 23.34% of out-of-sample test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.*
+
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host revenues are depicted in the above bar chart.
 
 Revenues are generally positively associated with Airbnb listings with a strict cancellation policy and for hosts with Super Host status. This would imply that verification of hosts in this manner and strong enforcement of scheduling can either ensure higher quality guests, or that well-maintained and valuable properties with experienced hosts tend to attract more guests. It also appears that guest ratings for the check-in experience is also a factor which is positively associated to revenue.
@@ -375,6 +380,8 @@ No particular neighbourhoods stand out as significant features with positive con
 
 **Figure 10.** *Feature importance for characteristics contributing to host overall rating.*
 
+*It appears that conducting a regression on the training dataset indicates that the listed regressors explain 56.24% of test data for overall estimated revenue in this linear regression model. We are presently not considering P-values to find whether regressors are statistically significant, but merely observing the model coefficients to determine degree of impact of regressor upon the overall rating.*
+
 The Top 25 amenities, housing characteristics, and similar factors contributing most greatly in positive association to Airbnb host ratings are depicted in the above bar chart.
 
 Ratings are generally positively associated with Airbnb listings where hosts hold Super Host status and are verified. This would imply that positive recommendation and verification of hosts in this manner attracts and reassures guests that their host can be trusted, is seasoned, and has a reputation for offering a stellar experience.
@@ -407,7 +414,7 @@ The latter alternative would also apply for high revenue generating areas such a
 
 Given that the scope of this project remained quite small, and the constraints of the CRISP-DM approach with the context of our business questions did not necessitate any predictive analysis or rigorous machine learning models, the regression models produced, while fairly strong in identifying underlying associations, should only be taken as a preliminary investigation into some of the fundamental characteristics for the Airbnb market in Seattle.
 
-In future, were I to extend this project, I would use alternative variations of **Generalised Linear Models** employed in my analysis here, with better predictive power to gauge feature importance while maintaining similar interpretability.
+In future, were I to extend this project, I would use alternative variations of **Generalised Linear Models** with better predictive power to gauge feature importance while maintaining similar interpretability.
 
 Additionally, I would use certain techniques in dimensionality reduction such as **Principal Component Analysis (PCA)** to limit certain groups of features and produce composite features, or exclusion testing to drop features with poor explanatory power for my modelling.
 
