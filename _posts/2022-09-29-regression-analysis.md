@@ -11,7 +11,7 @@ tags: [Machine Learning, Artificial Intelligence]
 ### Linear Regression
 **Linear regression** in statistics is the approach of linearly modelling an observed scalar response variable using one or more explanatory variables<sup>[[1]](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)</sup>. Generally, for robustness we restrict our modelling to the multiple linear regression case, where the outcome of a single target is predicted using multiple features in a ML application. Linear regression is a powerful tool heavily used in econometrics, statistics, and machine learning and is used in modelling data where the dependent variable is continuous.
 
-![linear-regression](/docs/assets/images/[...].png)
+![linear-regression](/docs/assets/images/linear-regression.png)
 
 **Figure 1.** *y = X * parameters + error*
 
