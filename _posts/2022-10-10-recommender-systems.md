@@ -10,7 +10,7 @@ A **recommender system** or engine, is a class of information filtering algorith
 
 Recommender systems initially suffer from the ‘cold start’ problem, where in a system containing information on items and users and the matrix of their preferences for said items, much of the data of ratings will not have been gathered from users beforehand in order to make accurate and relevant predictions. This is usually alleviated when a new user joining a system is asked to initially rate a series of products (frequently comparatively), or provide a broad set of categories in which they exhibit personal interest and from which they would like to receive recommendations.
 
-![recommender-system](/docs/assets/images/[...].png)
+![recommender-system](/docs/assets/images/recommender-system.png)
 
 **Figure 1.** *User-item ratings matrix*
 

@@ -2,7 +2,7 @@
 layout: post
 title: Neural Networks and Deep Learning Models
 date: 2022-08-05 23:59:59
-tags: [Machine Learning, Neural Networks, Deep Learning]
+tags: [Machine Learning, Neural Networks, Deep Learning, Artificial Intelligence]
 ---
 ## Neural Networks and Deep Learning Models
 
