@@ -6,7 +6,7 @@ tags: [Machine Learning, Artificial Intelligence]
 ---
 ## Recommender Systems
 
-A **recommender system** or engine, is a class of information filtering algorithms which predicts preferences users have for a specific item. These algorithms are popular in search engines and in e-commerce platforms offering product recommendations. The heterogeneity in filtering methods illustrates the variations in goals with which preferences are determined for users.
+A **recommender system** or engine, is a class of information filtering algorithms which predicts preferences users have for a specific item<sup>[[1]](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)</sup>. These algorithms are popular in search engines and in e-commerce platforms offering product recommendations. The heterogeneity in filtering methods illustrates the variations in goals with which preferences are determined for users.
 
 Recommender systems initially suffer from the ‘cold start’ problem, where in a system containing information on items and users and the matrix of their preferences for said items, much of the data of ratings will not have been gathered from users beforehand in order to make accurate and relevant predictions. This is usually alleviated when a new user joining a system is asked to initially rate a series of products (frequently comparatively), or provide a broad set of categories in which they exhibit personal interest and from which they would like to receive recommendations.
 
@@ -34,3 +34,7 @@ In session-based filtering, a recent set of unique user interaction, browsing, a
 Recommendation sets of various algorithms may be weighted through scoring prior to being presented to the user. A mix of different recommender systems and their results are provided together to users all at once. Sometimes results from one algorithm are used as the input for another algorithm before being presented to the user. These constitute just some of the unique hybrid strategies in current use.
 
 There are various different similarity metrics which can be used to calculate how close users or products are in characteristics. Some similarity metrics which can easily be calculated include *Euclidean Distance*, *Jacard Similarity*, *Pearson Similarity*, *Cosine Similarity*, and *Dot Product*.
+
+### Reference
+
+[[1] Hastie, Trevor, Robert, Tibshirani and J. H. Friedman, *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. New York: Springer, 2009.](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
