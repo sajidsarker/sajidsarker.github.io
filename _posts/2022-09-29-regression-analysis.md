@@ -25,11 +25,11 @@ import pandas as pd
 
 df = pd.read_csv('./data.csv')
 
-y = df['y']
-X = df.iloc[:, 1:]
+y = df['y'].values
+X = df.iloc[:, 1:].values
 
 # Ordinary Least Squares (OLS) under BLUE assumptions
-parameters = np.inverse(X.T @ X) @ (X @ y)
+parameters = np.linalg.inv(X.T @ X) @ (X @ y)
 prediction = X @ parameters
 error = y - prediction
 ```
