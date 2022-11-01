@@ -29,8 +29,8 @@ y = df['y'].values
 X = df.iloc[:, 1:].values
 
 # Ordinary Least Squares (OLS) under BLUE assumptions
-parameters = np.linalg.inv(X.T @ X) @ (X @ y)
-prediction = X @ parameters
+theta = np.linalg.inv(X.T @ X) @ (X @ y)
+prediction = X @ theta
 error = y - prediction
 ```
 
