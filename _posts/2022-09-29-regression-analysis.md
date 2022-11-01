@@ -17,7 +17,7 @@ tags: [Machine Learning, Artificial Intelligence]
 
 In a linear regression model, the target is represented by a continuous scalar variable which is observed and measured in our data. This data is usually of significant business interest and the goal of modelling our target is for prediction and forecasting. The target is linearly defined as the sum of the products of our observed features and their respective model parameter.
 
-The difference in our prediction based on this linear function of features and model parameters and the target yields us an error. Optimisation algorithms such as *Gradient Descent* or resorting to *Best Least Unbiased Estimator (BLUE)* under statistical assumptions allows us to choose model parameters which minimise the error. This gives us greater accuracy in predictions as the distance between our target and predictions is minimised. This is equivalent to finding a ‘line of best fit’ that closely maps onto our observed points as possible.
+The difference in our prediction based on this linear function of features and model parameters and the target yields us an error. Optimisation algorithms such as *Gradient Descent* under statistical OLS assumptions allows us to choose model parameters which minimise the error. This gives us greater accuracy in predictions as the distance between our target and predictions is minimised. This is equivalent to finding a ‘line of best fit’ that closely maps onto our observed points as possible.
 
 ```python
 import numpy as np
@@ -28,7 +28,7 @@ df = pd.read_csv('./data.csv')
 y = df.iloc[:, 0].values
 X = df.iloc[:, 1:].values
 
-# Ordinary Least Squares (OLS) under BLUE assumptions
+# Ordinary Least Squares (OLS) under all OLS assumptions is Best Linear Unbiased Estimator (BLUE)
 theta = np.linalg.inv(X.T @ X) @ (X @ y)
 prediction = X @ theta
 error = y - prediction
