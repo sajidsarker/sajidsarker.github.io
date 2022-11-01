@@ -19,6 +19,21 @@ In a linear regression model, the target is represented by a continuous scalar v
 
 The difference in our prediction based on this linear function of features and model parameters and the target yields us an error. Optimisation algorithms such as *Gradient Descent* or resorting to *Best Least Unbiased Estimator (BLUE)* under statistical assumptions allows us to choose model parameters which minimise the error. This gives us greater accuracy in predictions as the distance between our target and predictions is minimised. This is equivalent to finding a ‘line of best fit’ that closely maps onto our observed points as possible.
 
+```python
+import numpy as np
+import pandas as pd
+
+df = pd.read_csv('./data.csv')
+
+y = df['y']
+X = df.iloc[:, 1:]
+
+# Ordinary Least Squares (OLS) under BLUE assumptions
+parameters = np.inverse(X.T @ X) @ (X @ y)
+prediction = X @ parameters
+error = y - prediction
+```
+
 Different classes of regression models exist such as **Ordinary Least Squares (OLS)** regression, where the *Mean Squared Error (MSE)* is minimised.
 
 Other forms of linear regression are available such as **Generalised Least Squares (GLS)** regression where the function of features and model parameters are specified in a different manner such as the use of a *Generalised Method of Moments* estimator.
