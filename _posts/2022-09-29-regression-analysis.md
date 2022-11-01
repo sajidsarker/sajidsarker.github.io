@@ -25,7 +25,7 @@ import pandas as pd
 
 df = pd.read_csv('./data.csv')
 
-y = df['y'].values
+y = df.iloc[:, 0].values
 X = df.iloc[:, 1:].values
 
 # Ordinary Least Squares (OLS) under BLUE assumptions
