@@ -200,7 +200,7 @@ def main():
             calculation.evaluate()
 
     else:
-        print('Error in expression. Please type "./calculate.py <expression>" or "python calculate.py <expression>" with the expression surrounded by quotation marks.')
+        print('Error in expression. Please type "./calculator.py <expression>" or "python calculator.py <expression>" with the expression surrounded by quotation marks.')
 
 if __name__ == '__main__':
     main()
