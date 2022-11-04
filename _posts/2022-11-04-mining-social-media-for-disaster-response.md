@@ -9,6 +9,10 @@ tags: [Machine Learning, Artificial Intelligence]
 ![screenshot](/docs/assets/images/app.png)
 **© Sajid Sarker, 2022.**
 
+<br>
+
+### Motivation
+
 The motivation for this particular project is to construct a web-based application and API that is able to classify social media messages into critical disaster response-related categories. There are 36 predefined natural disasters and disaster response-related categories under which social media messages may be filed including earthquakes, floods, shelter, food, medical aid, search & rescue et cetera.
 
 By classifying these messages, we can determine critical information on specific locations, users, and aid resources required for disaster relief efforts and forward the contents of these identified messages to the appropriate disaster relief agencies or governmental authorities for disaster response.
@@ -17,6 +21,12 @@ The utilisation of machine learning and natural language processing ensures fast
 
 The web-based application and API uses an ETL pipeline that processes social media disaster related messages from Figure Eight and subsequently uses the cleaned dataset in a NLP pipeline for a multi-class classification model.
 
+### Pipeline
+
+**Extract, Transform, Load (ETL):**
+
+**Natural Language Processing (NLP):**
+
 ### Open Source
 
-[[1] Disaster Response Pipeline Project on Github](https://github.com/sajidsarker/disaster-response)
+[[1] Github Repository: Disaster Response Pipeline Project](https://github.com/sajidsarker/disaster-response)
