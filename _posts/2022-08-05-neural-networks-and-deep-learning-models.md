@@ -39,7 +39,7 @@ Errors can be calculated in various ways, including:
 1. Mean Absolute Error (MAE)
 2. Mean Squared Error (MSE)
 
-Commonly, the Mean Squared Error is employed as the Loss function, and is formulated as $MSE = \frac{1/n} \sum_{i=1}^{n}(y_i-\hat{y}_i)^2$.
+Commonly, the Mean Squared Error is employed as the Loss function, and is formulated as $MSE = \frac{1}{n} \sum_{i=1}^{n}(y_i-\hat{y}_i)^2$.
 
 The errors are then propagated backwards through the network in the form of deltas, and stochastic gradient descent is used to update our weights. Once this cycle is repeated on all the data the network is being trained on over multiple epochs, we arrive at a set of weights which can then be used on new out-of-sample data for prediction.
 
