@@ -6,7 +6,7 @@ tags: [Machine Learning, Artificial Intelligence]
 ---
 ## Mining Social Media for Disaster Response
 
-[screenshot](https://github.com/sajidsarker/disaster-response/blob/main/app.png)
+![screenshot](https://github.com/sajidsarker/disaster-response/blob/main/app.png)
 
 The motivation for this particular project is to construct a web-based application and API that is able to classify social media messages into critical disaster response-related categories. There are 36 predefined natural disasters and disaster response-related categories under which social media messages may be filed including earthquakes, floods, shelter, food, medical aid, search & rescue et cetera.
 
