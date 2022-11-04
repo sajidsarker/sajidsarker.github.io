@@ -8,7 +8,7 @@ tags: [Writing, Non-Fiction, Public Readings, Prairie Lights]
 
 [**Writers Gone Public reading, Live from Prairie Lights, December 4, 2014.**](https://digital.lib.uiowa.edu/islandora/object/ui%3Avwu_3653)
 
-(Navigate to 31:52 for my reading)
+**(Navigate to 31:52 for my reading)**
 
 During my undergraduate studies in Economics at the University of Iowa, I had participated in an event held at the famed Prairie Lights Bookshop where young writers from the non-fiction writing program were invited to read their works.
 
