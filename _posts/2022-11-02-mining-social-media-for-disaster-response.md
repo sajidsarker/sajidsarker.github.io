@@ -25,7 +25,25 @@ The web-based application and API uses an ETL pipeline that processes social med
 
 **Extract, Transform, Load (ETL):**
 
+The ETL pipeline that was developed to process our data was responsible for cleaning message and category datasets stored in a `.CSV` format and then converting it to a SQL database table.
+
+Categories in the category dataset were essentially broken down into categorical binary dummy variables across multiple new columns and observational data was indexed by their respective unique message IDs in the message dataset. The two DataFrames were then merged together and converted into a SQL database table.
+
 **Natural Language Processing (NLP):**
+
+The NLP pipeline that was used to process message data took information from the SQL database table created by the ETL pipeline, and ran each message through various text processing steps.
+
+These included:
+1. Text normalisation
+2. URL removal
+3. Punctuation removal
+4. Tokenisation
+5. Stopword removal
+6. Lemmatisation
+
+Cleaned tokens were then vectorised by count and subsequently transformed to obtain TF-IDF.
+
+Finally, the last stage of the pipeline was to conduct a Grid Search with Cross Validation on an Ada Boost classifier algorithm for Supervised Ensemble learning.
 
 ### Open Source
 
