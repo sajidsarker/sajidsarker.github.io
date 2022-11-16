@@ -27,30 +27,6 @@ From the age of 11, Iâ€™ve been a self-taught programmer. From the age of 15, Iâ
 **B.B.A., Economics, The University of Iowa**
 2012-2014
 
-## Proficiencies
-
-### Languages
-- English (native)
-- Bangla (native)
-- French (intermediate)
-- Hindi (spoken)
-
-### Programming
-- Python
-- Matlab
-- R
-- SQL
-- C#
-
-### Software IDEs
-- Stata
-- Jupyter Lab
-- Matlab
-- Octave
-- R Studio
-- MySQL Workbench
-- Unity
-
 ## Experience
 
 **Monenco Consulting Engineers**
@@ -114,3 +90,27 @@ From the age of 11, Iâ€™ve been a self-taught programmer. From the age of 15, Iâ
 
 **University of Iowa National Scholars Award,** *The University of Iowa*
 2012
+
+## Proficiencies
+
+### Languages
+- English (native)
+- Bangla (native)
+- French (intermediate)
+- Hindi (spoken)
+
+### Programming
+- Python
+- Matlab
+- R
+- SQL
+- C#
+
+### Software IDEs
+- Stata
+- Jupyter Lab
+- Matlab
+- Octave
+- R Studio
+- MySQL Workbench
+- Unity
