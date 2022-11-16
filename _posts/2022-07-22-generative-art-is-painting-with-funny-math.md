@@ -2,7 +2,7 @@
 layout: post
 title: Generative Art is Painting with Funny Math
 date: 2022-07-21 03:45:00
-tags: Art
+tags: [Art, Mathematics, R]
 ---
 ## Generative Art is Painting with Funny Math
 There, I said it. There's no need to be pretentious about it. Especially not about art.
