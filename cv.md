@@ -14,7 +14,7 @@ I received my **B.B.A., Economics** from the *Tippie College of Business* at the
 
 From the age of 11, I’ve been a self-taught programmer. From the age of 15, I’ve been studying economics. From the age of 21, I’ve been learning econometrics, machine learning, and artificial intelligence.
 
-[Find my full CV.](/docs/assets/images/cv.pdf)
+[**View my full CV.**](/docs/assets/images/cv.pdf)
 
 ## Education
 
