@@ -1,4 +1,4 @@
-<img src="docs/assets/images/pp.jpg" alt="sajid" width="50%" />
+<img src="docs/assets/images/pp.jpg" alt="sajid" width="30%" />
 
 Hi, I'm **Sajid Sarker**!
 
