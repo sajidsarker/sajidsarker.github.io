@@ -17,7 +17,7 @@ As an observational study of select households surveyed in a *randomised control
 The desired outcomes were for households to achieve socioeconomic growth and development across various indicators as a result of prescribed interventions applied across experimental groups, while withheld from a control group in 2011. The interventions associated with the best socioeconomic outcomes observed in 2015 were then applied to all households participating in the study as both ethical and humanitarian policy.
 
 Controlled for:
-- Exogenous Factors
-- Time variant and invariant elements
-- Heterogeneities between households
-- Stratified sampling of impoverished urban population
+- Exogenous shocks
+- Time variant and invariant factors
+- Observed characteristic heterogeneities in households
+- Stratified sampling of impoverished urban populations
