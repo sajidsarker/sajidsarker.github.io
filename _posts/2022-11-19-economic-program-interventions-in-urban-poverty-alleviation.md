@@ -19,5 +19,5 @@ The desired outcomes were for households to achieve socioeconomic growth and dev
 Controlled for:
 - Exogenous shocks
 - Time variant and invariant factors
-- Observed characteristic heterogeneities in households
+- Observed heterogeneities in household characteristics
 - Stratified sampling of impoverished urban populations
