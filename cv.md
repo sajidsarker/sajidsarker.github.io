@@ -12,7 +12,9 @@ I received my **M.A., Economics** from the *Department of Economics* at *The Uni
 
 I received my **B.B.A., Economics** from the *Tippie College of Business* at the *University of Iowa* in Iowa City, IA.
 
-From the age of 11, I’ve been a self-taught programmer. From the age of 15, I’ve been studying economics. From the age of 21, I’ve been learning econometrics, machine learning, and artificial intelligence. My experiences as a researcher include conducting economic development research in Asia and the MENA region with various governmental and international governmental agencies.
+From the age of 11, I’ve been a self-taught programmer. From the age of 15, I’ve been studying economics. From the age of 21, I’ve been learning econometrics, machine learning, and artificial intelligence.
+
+My experiences as a researcher include conducting economic development research in Asia, Europe, and the MENA region with various governmental and international governmental agencies.
 
 [**View my full CV.**](/docs/assets/images/cv.pdf)
 
