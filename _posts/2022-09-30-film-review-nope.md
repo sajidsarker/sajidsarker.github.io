@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Film Review: "Nope"
+title: Film Review - Nope
 date: 2022-09-30 05:00:00
 tags: [Review, Writing]
 ---
