@@ -1,3 +1,5 @@
+![img](docs/assets/images/pp.jpg)
+
 Hi, I'm **Sajid Sarker**!
 
 I'm a Data Scientist, Game Developer, and Writer.
