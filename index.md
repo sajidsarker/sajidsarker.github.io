@@ -1,4 +1,4 @@
-![img](docs/assets/images/pp.jpg)
+<img src="docs/assets/images/pp.jpg" alt="sajid" width="50%" />
 
 Hi, I'm **Sajid Sarker**!
 
