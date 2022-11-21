@@ -14,7 +14,7 @@ Perhaps I felt that I already understood the craft and without anything to say, 
 
 In those 7 years I gave my time instead to education and to work. In much of that work I succeeded and in many things I was met with failures. Complacency would be to rest on my meagre successes and expect them to tide me by. After much introspection in the last 2 years and arriving at an impasse necessitating I adapt, I’ve chosen not to remain immovable in the face of things.
 
-Life is not worth living if we stop ascribing meaning to what we do. Over time this degrades our our sense of fulfilment. Work is an expression of our creative wills; not an incentivised race for pecuniary accretion. Modernity bearing down on our heads mustn’t stifle this expression of the self in our wants and hopes. I cannot rest feeling I’ve done it all or seen it all.
+Life is not worth living if we stop ascribing meaning to what we do. Over time this degrades our sense of fulfilment. Work is an expression of our creative wills; not an incentivised race for pecuniary accretion. Modernity bearing down on our heads mustn’t stifle this expression of the self in our wants and hopes. I cannot rest feeling I’ve done it all or seen it all.
 
 Sometimes to dream is to dream. It is when our lucid self finds divine sanction and incitement. It is where all stories live.
 
