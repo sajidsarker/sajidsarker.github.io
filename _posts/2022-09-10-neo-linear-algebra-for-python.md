@@ -40,7 +40,7 @@ My personal constraints and goals for this project included the following:
 10. Create comprehensive unit tests for my code for debugging
 11. Deploy my package to *PyPI*
 
-Given I had made the decision to make my work open source, and knowing full well I will never be able to compete with *NumPy*, I felt the best course of action would be to create a minimum viable product, host a development repository on *Github* for public forking, and focus on simplicity, quality of syntax, and comprehensive documentation<sup>[[3]](https://github.com/sajidsarker/neolinearalgebra/blob/main/Documentation/Documentation.html)</sup>.
+Given I had made the decision to make my work open source, and knowing full well I will never be able to compete with *NumPy*, I felt the best course of action would be to create a minimum viable product, host a development repository on *Github* for public forking, and focus on simplicity, quality of syntax, and comprehensive documentation<sup>[[3]](/docs/assets/documentation/neolinearalgebra/Documentation.html)</sup>.
 
 With my choice of Linear Algebra and love for *The Matrix*, I decided to write a singular *Matrix* class. Matrix manipulation and operations I envisioned at first included:
 - Integrity Checks
