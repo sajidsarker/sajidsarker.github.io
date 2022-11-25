@@ -134,4 +134,4 @@ After deployment, I hope to update functionality of my package by extending the 
 
 [[2] neolinearalgebra 0.2.1 - PyPi.org](https://pypi.org/project/neolinearalgebra/0.2.1/)
 
-[[3] NEO Linear Algebra Documentation](docs/assets/documentation/neolinearalgebra/Documentation.html)
+[[3] NEO Linear Algebra Documentation](/docs/assets/documentation/neolinearalgebra/Documentation.html)
