@@ -10,7 +10,7 @@ tags: [Mathematics, Open Source, Python]
 
 I built **NEO Linear Algebra** using *Object Oriented Programming* (OOP) architecture when designing the primary class for matrices.
 
-The latest build (at time of writing) is **neolinearalgebra 0.1.6**<sup>[[2]](https://pypi.org/project/neolinearalgebra/0.1.6/)</sup> and can be installed using Python's *pip* package manager easily.
+The latest build (at time of writing) is **neolinearalgebra 0.2.1**<sup>[[2]](https://pypi.org/project/neolinearalgebra/0.1.6/)</sup> and can be installed using Python's *pip* package manager easily.
 
 ```bash
 python3 -m pip install neolinearalgebra
@@ -54,6 +54,8 @@ With my choice of Linear Algebra and love for *The Matrix*, I decided to write a
 - Trace
 - Determinant
 - Inversion
+- Magnitude
+- Sum
 
 What I ended up with is something very clean and intuitive!
 
@@ -118,14 +120,12 @@ Tools I used were pretty humble:
 
 Python packages I used:
 - unittest: Unit testing
-- pdoc3: Documentation
+- pdoc: Documentation
 
 ### Future Extensibility
 
 After deployment, I hope to update functionality of my package by extending the Matrix class as the parent for a new Vector class (a special case of matrices), and extend it to functions such as:
-- Magnitude
 - Normal
-- Dot Product
 - Cross Product
 
 ### Open Source
