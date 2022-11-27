@@ -133,6 +133,6 @@ After deployment, I hope to update functionality of my package by extending the 
 
 [[1] NEO Linear Algebra Open Source on Github](https://github.com/sajidsarker/neolinearalgebra)
 
-[[2] neolinearalgebra 0.2.1 - PyPi.org](https://pypi.org/project/neolinearalgebra/0.2.2/)
+[[2] neolinearalgebra 0.2.2 - PyPi.org](https://pypi.org/project/neolinearalgebra/0.2.2/)
 
 [[3] NEO Linear Algebra Documentation](/docs/assets/documentation/neolinearalgebra/Documentation.html)
