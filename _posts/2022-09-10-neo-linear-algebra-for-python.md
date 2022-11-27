@@ -10,7 +10,7 @@ tags: [Mathematics, Open Source, Python]
 
 I built **NEO Linear Algebra** using *Object Oriented Programming* (OOP) architecture when designing the primary class for matrices.
 
-The latest build (at time of writing) is **neolinearalgebra 0.2.2**<sup>[[2]](https://pypi.org/project/neolinearalgebra/0.2.2/)</sup> and can be installed using Python's *pip* package manager easily.
+The latest build (at time of writing) is **neolinearalgebra 0.2.3**<sup>[[2]](https://pypi.org/project/neolinearalgebra/0.2.3/)</sup> and can be installed using Python's *pip* package manager easily.
 
 ```bash
 python3 -m pip install neolinearalgebra
@@ -133,6 +133,6 @@ After deployment, I hope to update functionality of my package by extending the 
 
 [[1] NEO Linear Algebra Open Source on Github](https://github.com/sajidsarker/neolinearalgebra)
 
-[[2] neolinearalgebra 0.2.2 - PyPi.org](https://pypi.org/project/neolinearalgebra/0.2.2/)
+[[2] neolinearalgebra 0.2.3 - PyPi.org](https://pypi.org/project/neolinearalgebra/0.2.3/)
 
 [[3] NEO Linear Algebra Documentation](/docs/assets/documentation/neolinearalgebra/Documentation.html)
