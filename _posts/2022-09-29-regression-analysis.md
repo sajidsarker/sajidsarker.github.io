@@ -29,7 +29,7 @@ y = df.iloc[:, 0].values
 X = df.iloc[:, 1:].values
 
 # Ordinary Least Squares (OLS) under all OLS assumptions is Best Linear Unbiased Estimator (BLUE)
-theta = np.linalg.inv(X.T @ X) @ (X @ y)
+theta = np.linalg.inv(X.T @ X) @ (X.T @ y)
 prediction = X @ theta
 error = y - prediction
 ```
