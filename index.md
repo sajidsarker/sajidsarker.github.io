@@ -1,5 +1,4 @@
-<img src="docs/assets/images/pp.jpg" alt="sajid" width="30%" />
-
+<!--<img src="docs/assets/images/pp.jpg" alt="sajid" width="30%" />-->
 Hi, I'm **Sajid Sarker**!
 
 I'm a Data Scientist, Game Developer, and Writer.
