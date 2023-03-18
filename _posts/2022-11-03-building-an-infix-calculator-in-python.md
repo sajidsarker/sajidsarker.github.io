@@ -20,7 +20,7 @@ Evaluation of these operators is then in the order of **PEMDAS**:
 
 Given that the computer is naive, we must resort to alogithmically evaluating a mathematical infix expression by converting it first into either postfix or prefix notation which is easier for a computer to process systematically.
 
-If we evaluate an infix expression `A * B - (C + D) + E`, it is convertible into a postfix expression `A B * C D + - E`. This represents the stacking of two operands followed by the operator that is to be used on the prior operands.
+If we evaluate an infix expression `A * B - (C + D) + E`, it is convertible into a postfix expression `A B * C D + - E +`. This represents the stacking of two operands followed by the operator that is to be used on the prior operands.
 
 My code for a CLI infix calculator `calculator.py` takes an infix expression as a string at runtime in the terminal from where it is called, performs validation checks to ensure that it is a valid infix expression, algorithmically converts it into a postfix expression, then evaluates the postfix expression to yield the correct answer.
 
