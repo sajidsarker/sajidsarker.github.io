@@ -16,7 +16,7 @@ The power of clustering emerges from the fact that with big data and multidimens
 
 
 ### K-Means
-**Figure 5.** *K-Means identifying (3) clusters*
+**Figure 1.** *K-Means identifying (3) clusters*
 
 K-Means clustering is one such algorithmic implementation which works by finding groups within the data. It then works iteratively to assign each observational data point to said groups in feature space.
 
