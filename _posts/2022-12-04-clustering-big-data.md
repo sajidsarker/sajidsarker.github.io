@@ -6,11 +6,13 @@ tags: [Machine Learning, Big Data, Data Science]
 ---
 ## Clustering Big Data
 
-**Unsupervised learning** refers to a class of machine learning algorithms which study unlabeled data to identify patterns. Uniquely, there is no data containing labels or class information nor the intervention of a human operator to provide instructions on the nature of the data. Instead, the machine identifies any underlying correlations or causal relationships by analyzing the provided data.
+**(This article is a work-in-progress)**
+
+**Unsupervised learning**<sup>[[1]](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)</sup> refers to a class of machine learning algorithms which study unlabeled data to identify patterns. Uniquely, there is no data containing labels or class information nor the intervention of a human operator to provide instructions on the nature of the data. Instead, the machine identifies any underlying correlations or causal relationships by analyzing the provided data.
 
 In an unsupervised learning process, the machine learning algorithm is left to interpret large data sets and address that data accordingly. The algorithm tries to organize that data in a manner that describes its structure. This could be through attempted grouping based on similarity or arrangement into a more organized structure. As more data is assessed, its ability to make decisions based on given data grows more refined.
 
-**Clustering**<sup>[[1]](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)</sup> involves grouping observational data exhibiting similarities across defined criteria into sets or clusters. Observations pertaining to a particular cluster are defined as bearing a stronger similarity within the cluster as opposed to outside members of a different cluster for the predetermined criteria. Clustering is useful for segmenting and filtering data into several groups before performing additional analysis to extract other interesting patterns.
+**Clustering** involves grouping observational data exhibiting similarities across defined criteria into sets or clusters. Observations pertaining to a particular cluster are defined as bearing a stronger similarity within the cluster as opposed to outside members of a different cluster for the predetermined criteria. Clustering is useful for segmenting and filtering data into several groups before performing additional analysis to extract other interesting patterns.
 
 The power of clustering emerges from the fact that with big data and multidimensional feature spaces, it grows exceedingly difficult for humans to visually discern patterns in unlabeled data without machine assistance. The algorithmic approach is efficient and eschews human intervention and thereby human limitations in processing multidimensional data where patterns are not immediately noticeable or comprehensible to the eye. It also avoids the imposition of human biases in the process, where generally pattern-seeking with preconceived expectations by human operators may lead to incorrect cluster identification.
 
