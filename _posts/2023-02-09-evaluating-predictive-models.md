@@ -16,14 +16,16 @@ The lower the residual for predictions made on sample data, the less likely the 
 
 ### Computing Mean Absolute Error (MAE)
 
-The **Mean Absolute Error** is calculated as the average of the absolute difference between predictions and actual observations. However, this function is not continuous nor differentiable at 0, posing a challenge in the computation of loss gradients.
-
-Additionally, the residual is scaled according to the data, making it difficult to compare the accuracy of predictive models with residuals computed on differently scaled data.
+The **Mean Absolute Error** is calculated as the average of the absolute difference between predictions and actual observations.
 
 ```python
 def compute_mae(predictions: np.ndarray, actuals: np.ndarray) -> float:
     return np.mean(np.abs(predictions-actuals))
 ```
+
+However, this function is not continuous nor differentiable at 0, posing a challenge in the computation of loss gradients.
+
+Additionally, the residual is scaled according to the data, making it difficult to compare the accuracy of predictive models with residuals computed on differently scaled data.
 
 ### Computing Mean Squared Error (MSE)
 ```python
