@@ -30,23 +30,8 @@ Cluster reassignment, mean calculation, and updating of centroid position ends w
 
 Clustered observations exhibit unique associations which are understandable by humans through analysis post-clustering, as it becomes evident which range of features and realized values observational data have been segmented upon. Armed with this knowledge and insight, one can then begin to develop catered strategies and engage in decision-making targeting these segments.
 
-### Hierarchical
-
-**Hierarchical clustering** follows a simple yet powerful idea: starting with each data point as an individual cluster, it progressively merges or splits clusters based on their similarity or dissimilarity. This process creates a tree-like structure called a dendrogram, which visually represents the relationships between data points and clusters.
-
-**Agglomerative vs. Divisive Clustering**
-There are two main approaches to hierarchical clustering: agglomerative (bottom-up) and divisive (top-down). Agglomerative clustering begins with each data point as a separate cluster and iteratively merges the most similar clusters until a stopping criterion is met. Divisive clustering, on the other hand, starts with all data points in one cluster and recursively splits them into smaller clusters.
-
-**Similarity Measures and Linkage Criteria**
-To determine the similarity or dissimilarity between clusters or data points, different metrics can be used, such as Euclidean distance or correlation coefficients. The choice of similarity measure depends on the type of data and the problem at hand.
-
-The linkage criterion determines how the distance between clusters is calculated during the merging process. Some common linkage methods include complete linkage, average linkage, and ward linkage. Each method has its own characteristics and can lead to different cluster structures.
-
-**Interpreting the Dendrogram**
-The dendrogram is a visual representation of the hierarchical clustering process. It displays the merging or splitting of clusters at different levels. The vertical axis represents the dissimilarity or distance between clusters, while the horizontal axis represents the data points or clusters.
-
-By observing the dendrogram, we can identify clusters at different levels of granularity. The height at which two branches merge represents their similarity or dissimilarity. The longer the vertical distance between two clusters, the more dissimilar they are.
-
 ### Reference
 
-[[1] Hastie, Trevor, Robert, Tibshirani and J. H. Friedman, *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. New York: Springer, 2009.](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
+[[1] Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. California: O'Reilly Media, 2019.](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)
+
+[[2] Hastie, Trevor, Robert, Tibshirani and J. H. Friedman, *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. New York: Springer, 2009.](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
