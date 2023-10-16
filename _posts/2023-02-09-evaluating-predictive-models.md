@@ -1,0 +1,58 @@
+---
+layout: post
+title: Evaluating Predictive Models
+date: 2023-02-09 15:22:00
+tags: [Data Science, Statistics, Machine Learning, Artificial Intelligence]
+---
+## Evaluating Predictive Models
+
+Optimising predictive models based on linear relationships often requires minimising the vertical Euclidean distance between predictions and actual observations drawn from a population of unknown distribution.
+
+There are various ways of calculating this distance (or difference). These metrics are generally defined as **residuals**, and allows us to gauge the accuracy of a predictive model.
+
+Different disciplines, such as statistics or machine learning, refer to residuals using different terms. Popularly, they are referred to as residuals, errors, or loss.
+
+The lower the residual for predictions made on sample data, the less likely the predictions are considered erroneous and the better the performance is of the model.
+
+### Computing Mean Absolute Error (MAE)
+
+The **Mean Absolute Error** is calculated as the average of the absolute difference between predictions and actual observations. However, this function is not continuous nor differentiable at 0, posing a challenge in the computation of loss gradients.
+
+Additionally, the residual is scaled according to the data, making it difficult to compare the accuracy of predictive models with residuals computed on differently scaled data.
+
+```python
+def compute_mae(predictions: np.ndarray, actuals: np.ndarray) -> float:
+    return np.mean(np.abs(predictions-actuals))
+```
+
+### Computing Mean Squared Error (MSE)
+```python
+def compute_mse(predictions: np.ndarray, actuals: np.ndarray) -> float:
+    return np.mean(np.power(predictions-actuals, 2))
+```
+
+### Computing Root Mean Squared Error (RMSE)
+```python
+def compute_rmse(predictions: np.ndarray, actuals: np.ndarray) -> float:
+    return np.sqrt(np.mean(np.power(predictions-actuals, 2)))
+```
+
+### Computing Coefficient of Determination (R<sup>2</sup>)
+```python
+def compute_rsquare(predictions: np.ndarray, actuals: np.ndarray) -> float:
+    return 1 - ( np.sum(np.power(predictions-actuals, 2)) / np.sum(np.power(np.mean(predictions)-actuals, 2)) )
+```
+
+### Computing Adjusted Coefficient of Determination (Adj. R<sup>2</sup>)
+```python
+def compute_adj_rsquare(predictions: np.ndarray, actuals: np.ndarray) -> float:
+    n = predictions.shape[0]
+    k = predictions.shape[1]
+    return 1 - ( ((1 - compute_rsquare(predictions, actuals)) * (n - 1)) / (n - k - 1) )
+```
+
+### References
+
+[[1] Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. California: O'Reilly Media, 2019.](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)
+
+[[2] Hastie, Trevor, Robert, Tibshirani and J. H. Friedman, *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. New York: Springer, 2009.](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
