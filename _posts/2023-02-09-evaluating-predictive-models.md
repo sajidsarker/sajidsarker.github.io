@@ -2,7 +2,7 @@
 layout: post
 title: Evaluating Predictive Models
 date: 2023-02-09 15:22:00
-tags: [Data Science, Statistics, Machine Learning, Artificial Intelligence]
+tags: [Artificial Intelligence, Data Science, Mathematics, Python, Machine Learning, Statistics]
 ---
 ## Evaluating Predictive Models
 
