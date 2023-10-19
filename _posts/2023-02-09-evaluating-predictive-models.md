@@ -8,7 +8,7 @@ tags: [Artificial Intelligence, Data Science, Mathematics, Python, Machine Learn
 
 Optimising predictive models based on linear relationships often requires minimising the vertical Euclidean distance between predictions and actual observations drawn from a population of unknown distribution.
 
-There are various ways of calculating this distance (or difference). These metrics are generally defined as **residuals**, and allows us to gauge the accuracy of a predictive model.
+There are various ways of calculating this distance (or difference). These metrics are generally defined as **residuals**, and allows us to gauge the accuracy of a predictive model or estimator.
 
 Different disciplines, such as statistics or machine learning, refer to residuals using different terms. Popularly, they are referred to as residuals, errors, or loss.
 
@@ -28,12 +28,22 @@ However, this function is not continuous nor differentiable at 0, posing a chall
 Additionally, the residual is scaled according to the data, making it difficult to compare the accuracy of predictive models with residuals computed on differently scaled data.
 
 ### Computing Mean Squared Error (MSE)
+
+The **Mean Squared Error** again calculates the average of the difference between predictions and actual observations.
+
 ```python
 def compute_mse(predictions: np.ndarray, actuals: np.ndarray) -> float:
     return np.mean(np.power(predictions-actuals, 2))
 ```
 
+Unlike **MAE**, the **MSE** is non-negative, continuous, and differentiable, making it well-suited for optimisation. However, the problems of data scaling persists.
+
+This residual can penalise large differences as a property of the square term. The double-edged sword is that the impact of outliers disproportionately balloons the degree of error.
+
 ### Computing Root Mean Squared Error (RMSE)
+
+This is the same as **MSE**, but we take the square root of the mean of the squared difference in predictions and actual observations.
+
 ```python
 def compute_rmse(predictions: np.ndarray, actuals: np.ndarray) -> float:
     return np.sqrt(np.mean(np.power(predictions-actuals, 2)))
