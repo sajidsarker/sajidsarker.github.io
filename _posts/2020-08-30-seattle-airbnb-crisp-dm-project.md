@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Seattle Home-stay Hosts can learn from Airbnb's Data
-date: 2022-08-30 02:23:41
+date: 2020-08-30 02:23:41
 tags: [Machine Learning, Data Science]
 ---
 ## What Seattle Home-stay Hosts can learn from Airbnb's Data
