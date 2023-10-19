@@ -27,9 +27,22 @@ However, this function is not continuous nor differentiable at 0, posing a chall
 
 Additionally, the residual is scaled according to the data, making it difficult to compare the accuracy of predictive models with residuals computed on differently scaled data.
 
+### Computing Mean Bias Error (MBE)
+
+The **Mean Absolute Error** is calculated as the average of the difference between predictions and actual observations.
+
+```python
+def compute_mae(predictions: np.ndarray, actuals: np.ndarray) -> float:
+    return np.mean(predictions-actuals)
+```
+
+It's an intuitive measure for understanding the direction of the loss. A negative residual would indicate predictions are generally overstated compared to a positive residual indicating the converse.
+
+It is, however, a poor measure of the magnitude of the error in question, making it show consistently incorrect values in a particular direction.
+
 ### Computing Mean Squared Error (MSE)
 
-The **Mean Squared Error** again calculates the average of the difference between predictions and actual observations.
+The **Mean Squared Error** calculates the average of the squared difference between predictions and actual observations.
 
 ```python
 def compute_mse(predictions: np.ndarray, actuals: np.ndarray) -> float:
