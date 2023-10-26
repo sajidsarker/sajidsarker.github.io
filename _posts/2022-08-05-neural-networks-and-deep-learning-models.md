@@ -25,7 +25,8 @@ Certain activation functions include:
 2. Tanh
 3. Softmax
 4. ReLU
-5. GeLU
+5. Leaky ReLU
+6. GLU
 
 Neurons are arranged into layers, where the outputs of neurons in one layer form the inputs of neurons in the next layer. A network is therefore composed of multiple such layers of neurons. The number of neurons in each layer can be heterogeneous. These minimally include one input layer, one output layer, and at least one hidden layer (bridging the input and output layers).
 
