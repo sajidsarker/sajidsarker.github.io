@@ -32,7 +32,7 @@ Additionally, the residual is scaled according to the data, making it difficult 
 The **Mean Absolute Error** is calculated as the average of the difference between predictions and actual observations.
 
 ```python
-def compute_mae(predictions: np.ndarray, actuals: np.ndarray) -> float:
+def compute_mbe(predictions: np.ndarray, actuals: np.ndarray) -> float:
     return np.mean(predictions-actuals)
 ```
 
