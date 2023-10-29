@@ -87,7 +87,7 @@ In other words, R<sup>2</sup> indicates how well a model explains the variation 
 
 ### Computing Adjusted Coefficient of Determination (Adj. R<sup>2</sup>)
 
-$$R^2 (adj.) = 1 - (\frac{n-1}{n-k-1} * (1-R^2))$$
+$$R^2 (adj.) = 1 - \begin{pmatrix}\frac{n-1}{n-k-1}\times(1-R^2)\end{pmatrix}$$
 
 ```python
 def compute_adj_rsquare(predictions: np.ndarray, actuals: np.ndarray) -> float:
