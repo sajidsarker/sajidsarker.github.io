@@ -18,7 +18,7 @@ The lower the residual for predictions made on sample data, the less likely the 
 
 The **Mean Absolute Error** is calculated as the average of the absolute difference between predictions and actual observations.
 
-$$MAE = \frac{1}{n} \sum_{i=1}^{n}\abs{y_i-\hat{y}_i}$$
+$$MAE = \frac{1}{n} \sum_{i=1}^{n}\begin{vmatrix}y_i-\hat{y}_i\end{vmatrix}$$
 
 ```python
 def compute_mae(predictions: np.ndarray, actuals: np.ndarray) -> float:
@@ -63,7 +63,7 @@ This residual can penalise large differences as a property of the square term. T
 
 This is the same as **MSE**, but we take the square root of the mean of the squared difference in predictions and actual observations.
 
-$$RMSE = \frac{1}{n} \sum_{i=1}^{n}\sqrt{(y_i-\hat{y}_i)^2}$$
+$$RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n}(y_i-\hat{y}_i)^2}$$
 
 ```python
 def compute_rmse(predictions: np.ndarray, actuals: np.ndarray) -> float:
