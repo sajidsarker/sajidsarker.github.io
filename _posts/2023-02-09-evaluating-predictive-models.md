@@ -18,6 +18,8 @@ The lower the residual for predictions made on sample data, the less likely the 
 
 The **Mean Absolute Error** is calculated as the average of the absolute difference between predictions and actual observations.
 
+$$MAE = \frac{1}{n} \sum_{i=1}^{n}\abs(y_i-\hat{y}_i)$$
+
 ```python
 def compute_mae(predictions: np.ndarray, actuals: np.ndarray) -> float:
     return np.mean(np.abs(predictions-actuals))
@@ -29,7 +31,9 @@ Additionally, the residual is scaled according to the data, making it difficult 
 
 ### Computing Mean Bias Error (MBE)
 
-The **Mean Absolute Error** is calculated as the average of the difference between predictions and actual observations.
+The **Mean Bias Error** is calculated as the average of the difference between predictions and actual observations.
+
+$$MAE = \frac{1}{n} \sum_{i=1}^{n}(y_i-\hat{y}_i)$$
 
 ```python
 def compute_mbe(predictions: np.ndarray, actuals: np.ndarray) -> float:
@@ -44,6 +48,8 @@ It is, however, a poor measure of the magnitude of the error in question, making
 
 The **Mean Squared Error** calculates the average of the squared difference between predictions and actual observations.
 
+$$MSE = \frac{1}{n} \sum_{i=1}^{n}(y_i-\hat{y}_i)^2$$
+
 ```python
 def compute_mse(predictions: np.ndarray, actuals: np.ndarray) -> float:
     return np.mean(np.power(predictions-actuals, 2))
@@ -56,6 +62,8 @@ This residual can penalise large differences as a property of the square term. T
 ### Computing Root Mean Squared Error (RMSE)
 
 This is the same as **MSE**, but we take the square root of the mean of the squared difference in predictions and actual observations.
+
+$$RMSE = \frac{1}{n} \sum_{i=1}^{n}\sqrt((y_i-\hat{y}_i)^2)$$
 
 ```python
 def compute_rmse(predictions: np.ndarray, actuals: np.ndarray) -> float:
