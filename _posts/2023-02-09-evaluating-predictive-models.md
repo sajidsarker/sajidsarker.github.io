@@ -74,6 +74,8 @@ def compute_rmse(predictions: np.ndarray, actuals: np.ndarray) -> float:
 
 The **Coefficient of Determination (R<sup>2</sup>)** is a statistical measure assessing the 'goodness of fit' in a predictive model.
 
+$$R^2 = 1 - \frac{\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}{\sum_{i=1}^{n}(y_i-\bar{y}_i)^2}$$
+
 ```python
 def compute_rsquare(predictions: np.ndarray, actuals: np.ndarray) -> float:
     return 1 - ( np.sum(np.power(predictions-actuals, 2)) / np.sum(np.power(np.mean(predictions)-actuals, 2)) )
@@ -84,6 +86,9 @@ R<sup>2</sup> quantifies the proportion of the variance in the dependent variabl
 In other words, R<sup>2</sup> indicates how well a model explains the variation in the observed data. Usually, R<sup>2</sup> lies between 0 and 1, where 0 indicates that variation in the dependent variable cannot be explained by the independent variables, and 1 implies perfect predictability by the independent variables.
 
 ### Computing Adjusted Coefficient of Determination (Adj. R<sup>2</sup>)
+
+$$R^2 (adj.) = 1 - (\frac{n-1}{n-k-1} * (1-R^2))$$
+
 ```python
 def compute_adj_rsquare(predictions: np.ndarray, actuals: np.ndarray) -> float:
     n = predictions.shape[0]
