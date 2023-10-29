@@ -41,9 +41,14 @@ def leaky_relu(x, epsilon=0.01):
 
 This function is perfectly degenerate, being a wrapper for an established NumPy function that calculates the element-wise hyperbolic tangent (*don't @ me*).
 
+However, an alternate and differentiable expression does exist.
+
 ```python
 def tanh(x):
     return np.tanh(x)
+
+def tanh(x):
+    return (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x))
 ```
 
 ### Gated Linear Unit (GLU)
