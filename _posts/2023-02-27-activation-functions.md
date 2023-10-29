@@ -64,7 +64,3 @@ def softmax(x):
     exp_x = np.exp(x - np.max(x))
     return exp_x / np.sum(exp_x)
 ```
-
-### References
-
-[[1] Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems*. California: O'Reilly Media, 2019.](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646)
