@@ -8,7 +8,7 @@ tags: [Artificial Intelligence, Data Science, Mathematics, Python, Machine Learn
 
 In an extension of my previous post on **neural networks**, I will be detailing the different activation functions used to transform the dot product of our input matrix and weights (parameters), as observations are fed forward through the different layers in a network during training.
 
-Activation functions covered are those most popularly used, 
+Activation functions covered are those most popularly used.
 
 ### Sigmoid
 

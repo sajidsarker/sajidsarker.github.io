@@ -8,7 +8,7 @@ tags: [Machine Learning, Neural Networks, Deep Learning, Artificial Intelligence
 
 ### Neural Networks
 
-**Deep learning (DL)** is one aspect of the broader family of  **machine learning (ML)** algorithms based on **artificial neural networks (ANN)**<sup>[[1]](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)</sup>. Deep learning and neural networks are unique in that they can be applied as supervised, semi-supervised or unsupervised ML methods.
+**Deep learning (DL)** is one aspect of the broader family of  **machine learning (ML)** algorithms based on **artificial neural networks (ANN)**<sup>[[1]](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)</sup>. Deep learning and neural networks are unique in that they can be applied as supervised, semi-supervised, or unsupervised ML methods.
 
 Neural networks are inspired by and modelled after biological systems of information processing which exist in nature. They are composed of layers of **perceptrons** which represent individual neurons existing as cellular pathways in the brains of organisms.
 
