@@ -6,6 +6,8 @@ tags: [Artificial Intelligence, Data Science, Machine Learning, Neural Networks,
 ---
 ## Neural Network Implementation
 
+**(This article is a work-in-progress.)**
+
 With fundamentals from past posts on the architecture of **neural networks**, evaluating predictive models, and a look into various activation functions, we can now bring all the elements together.
 
 I'll be detailing a simple implementation of a single layer neural network in Python to toy around with.
