@@ -46,7 +46,6 @@ Initialising initial weights to 0 causes the model to be stuck, as the forward p
 ```python
 def initialise_weights(num_features: int) -> Dict[str, np.ndarray]:
     weights: Dict[str, np.ndarray] = {}
-
     weights['Weight'] = np.random.randn(num_features, 1)
     weights['Bias'] = np.random.randn(1, 1)
 
