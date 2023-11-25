@@ -6,6 +6,8 @@ tags: [Artificial Intelligence, Data Science, Machine Learning, Neural Networks,
 ---
 ## Neural Network Implementation I
 
+**(This article is a work-in-progress).**
+
 With fundamentals from past posts on the architecture of **neural networks**, evaluating predictive models, and a look into various activation functions, we can now bring all the elements together.
 
 I'll be detailing a simple implementation of a single layer neural network in Python to toy around with.
@@ -36,6 +38,11 @@ def sigmoid(x: np.ndarray) -> np.ndarray:
 ```
 
 ### Random Initialisation
+
+In a neural network, the initial weights for each layer of perceptrons must be randomised to values in the $$\epsilon$$-neighbourhood of 0, for a real $$\epsilon$$ that is very small.
+
+Initialising initial weights to 0 causes the model to be stuck, as the forward pass will continue to evaluate to 0, gleaning no further information during backwards propagation for model weight updates. 
+
 ```python
 def initialise_weights(num_features: int) -> Dict[str, np.ndarray]:
     weights: Dict[str, np.ndarray] = {}
@@ -47,6 +54,11 @@ def initialise_weights(num_features: int) -> Dict[str, np.ndarray]:
 ```
 
 ### Forward Pass
+
+In the forward pass, the neural network is evaluated to generate predicitons from the dot product of inputs to a layer and the model weights. The output of this is then summed with the bias for each layer before being passed through an activation function.
+
+The activation function introduces non-linearity to an otherwise linear relationship between inputs and model weights.
+
 ```python
 def forward_pass(X_batch: np.ndarray,
                  y_batch: np.ndarray,
