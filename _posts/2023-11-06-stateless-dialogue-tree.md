@@ -17,8 +17,6 @@ I'll be detailing a simple implementation of a stateless dialogue tree running i
 The *Conversation Manager* class processes a dictionary of conversations, which are each dictionaries holding all the dialogue constituting a conversation.
 
 ```python
-#!/usr/bin/python3
-
 from typing import Dict
 from dialogue import *
 
@@ -42,8 +40,6 @@ class ConversationManager:
 The *Dialogue* class held in the dictionary of conversations are dependent on the existence of the calling *Conversation Manager*. Each *Dialogue* instance has an assigned speaker, an action prompt, and the content of dialogue. 
 
 ```python
-#!/usr/bin/python3
-
 from typing import List
 
 class Dialogue:
@@ -87,8 +83,6 @@ class Dialogue:
 We simply pass the dialogue tree as a conversation to the *Conversation Manager*. We can pass multiple conversations in this manner, referencing which one to play after the fact.
 
 ```python
-#!/usr/bin/python3
-
 from conversation_manager import *
 
 def main():
