@@ -2,7 +2,7 @@
 layout: post
 title: Derivatives of Activations to find Gradients
 date: 2023-03-10 18:47:00
-tags: [Artificial Intelligence, Data Science, Mathematics, Neural Networks, Python, Machine Learning, Statistics]
+tags: [Artificial Intelligence, Data Science, Deep Learning, Mathematics, Neural Networks, Python, Machine Learning, Statistics]
 ---
 ## Derivatives of Activations to find Gradients
 

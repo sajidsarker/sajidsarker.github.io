@@ -2,7 +2,7 @@
 layout: post
 title: Neural Network Implementation I
 date: 2023-03-22 09:36:00
-tags: [Artificial Intelligence, Data Science, Machine Learning, Neural Networks, Python, Statistics]
+tags: [Artificial Intelligence, Data Science, Deep Learning, Machine Learning, Neural Networks, Python, Statistics]
 ---
 ## Neural Network Implementation I
 

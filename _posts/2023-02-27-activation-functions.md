@@ -2,7 +2,7 @@
 layout: post
 title: Activation Functions
 date: 2023-02-27 11:10:00
-tags: [Artificial Intelligence, Data Science, Machine Learning, Mathematics, Neural Networks, Python, Statistics]
+tags: [Artificial Intelligence, Data Science, Deep Learning, Machine Learning, Mathematics, Neural Networks, Python, Statistics]
 ---
 ## Activation Functions
 
