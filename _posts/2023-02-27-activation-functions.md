@@ -2,7 +2,7 @@
 layout: post
 title: Activation Functions
 date: 2023-02-27 11:10:00
-tags: [Artificial Intelligence, Data Science, Mathematics, Python, Machine Learning, Statistics]
+tags: [Artificial Intelligence, Data Science, Machine Learning, Mathematics, Neural Networks, Python, Statistics]
 ---
 ## Activation Functions
 
@@ -49,6 +49,15 @@ def tanh(x):
 
 def tanh(x):
     return (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x))
+```
+
+### Exponential Linear Unit (ELU)
+
+Monotone exponential relationship for negative values that are scaled downwards.
+
+```python
+def elu(x, epsilon=1.0):
+    return x if x > 0 else epsilon * (np.exp(x) - 1)
 ```
 
 ### Gated Linear Unit (GLU)

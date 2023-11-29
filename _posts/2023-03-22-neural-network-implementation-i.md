@@ -94,3 +94,5 @@ def forward_pass(X_batch: np.ndarray,
 [[1] Sajid Sarker, *Evaluating Predictive Models*. Blog Post, 2023.](https://sajidsarker.github.io/2023/02/09/evaluating-predictive-models.html)
 
 [[2] Sajid Sarker, *Activation Functions*. Blog Post, 2023.](https://sajidsarker.github.io/2023/02/27/activation-functions.html)
+
+[[3] Sajid Sarker, *Derivatives of Activations to find Gradients*. Blog Post, 2023.](https://sajidsarker.github.io/2023/02/27/derivatives-of-activations-to-find-gradients.html)
