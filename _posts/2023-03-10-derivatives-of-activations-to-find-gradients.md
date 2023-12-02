@@ -33,13 +33,6 @@ def gradient_leaky_relu(x, epsilon=0.01):
     return 1 if x > 0 else epsilon
 ```
 
-### Exponential Linear Unit (ELU)
-
-```python
-def gradient_elu(x, epsilon=1.0):
-    return 1 if x > 0 else epsilon * np.exp(x)
-```
-
 ### Hyperbolic Tangent (Tanh)
 
 This function is similarly degenerate, being a wrapper for an established NumPy function that calculates the element-wise hyperbolic tangent.
@@ -52,4 +45,18 @@ def gradient_tanh(x):
 
 def gradient_tanh(x):
     return 1 - (np.exp(x) - np.exp(-x)) / (np.exp(x) + np.exp(-x))**2
+```
+
+### Exponential Linear Unit (ELU)
+
+```python
+def gradient_elu(x, epsilon=1.0):
+    return 1 if x > 0 else epsilon * np.exp(x)
+```
+
+### Swish
+
+```python
+def gradient_swish(x):
+	return (x * np.exp(-x) + 1 + np.exp(-x)) / (1 + np.exp(-x))**2
 ```

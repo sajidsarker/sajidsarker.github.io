@@ -60,13 +60,13 @@ def elu(x, epsilon=1.0):
     return x if x > 0 else epsilon * (np.exp(x) - 1)
 ```
 
-### Gated Linear Unit (GLU)
+### Swish
 
 A combined transformation dependent on the sigmoid function.
 
 ```python
-def glu(x, gate):
-    return x * sigmoid(gate)
+def swish(x):
+    return x * sigmoid(x)
 ```
 
 ### Softmax
