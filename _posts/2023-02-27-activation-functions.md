@@ -25,7 +25,7 @@ Linear relationship, requiring lower computational burden between layers.
 
 ```python
 def relu(x):
-    return max(0, x)
+    return x if x > 0 else 0
 ```
 
 ### Leaky ReLU
