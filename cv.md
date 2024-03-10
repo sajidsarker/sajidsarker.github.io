@@ -16,8 +16,6 @@ From the age of 11, Iâ€™ve been a self-taught programmer. From the age of 15, Iâ
 
 My experiences as a researcher include conducting economic development research in Asia, Europe, and the MENA region with various governmental and international governmental agencies.
 
-[**View my full CV.**](/docs/assets/images/cv.pdf)
-
 ## Education
 
 **M.A., Economics, The University of Washington**
@@ -30,16 +28,6 @@ My experiences as a researcher include conducting economic development research 
 2012-2014
 
 ## Experience
-
-**Monenco Consulting Engineers**
-2022-present
-
-*Engineer (Data Science), Smart Solutions & AI Department*
-
-**Na'ah Illahee Fund**
-2020-present
-
-*Finance & Contracts Officer*
 
 **The University of Washington**
 2017-2018
